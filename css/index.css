@@ -1,5 +1,5 @@
 main .container {
-  padding: 0 50px;
+  padding: 0 100px;
   border: 1px solid red;
   position: relative; }
 
@@ -7,11 +7,19 @@ main .title-container {
   border: 1px solid black;
   margin-top: 13em; }
 
-main .circle {
+main .circle-outer {
   border: 1px solid black;
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   position: absolute;
-  top: 150px;
+  top: 100px;
   left: 0; }
+  main .circle-outer .circle-inner {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    top: 24px;
+    left: 24px; }
