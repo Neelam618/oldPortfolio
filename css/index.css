@@ -1,6 +1,5 @@
 .container {
   padding: 0 100px;
-  border: 1px solid red;
   position: relative; }
 
 .profile-container {
@@ -20,8 +19,8 @@
   width: 200px;
   height: 200px;
   position: absolute;
-  top: 100px;
-  left: 0; }
+  top: -90px;
+  left: 25px; }
   .circle-outer .circle-inner {
     width: 150px;
     height: 150px;
