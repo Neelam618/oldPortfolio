@@ -6,7 +6,7 @@
   border: 1px solid black;
   border-radius: 20px;
   margin-top: 10em;
-  padding: 30px 20px 30px 150px; }
+  padding: 30px 20px 30px 200px; }
   .profile-container .social-links img {
     border: 1px solid black;
     border-radius: 50%;
@@ -27,8 +27,8 @@
   width: 200px;
   height: 200px;
   position: absolute;
-  top: -90px;
-  left: 25px; }
+  top: 125px;
+  left: 40px; }
   .circle-outer .circle-inner {
     width: 150px;
     height: 150px;
