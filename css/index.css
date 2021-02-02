@@ -1,14 +1,14 @@
-main .container {
+.container {
   padding: 0 100px;
   border: 1px solid red;
   position: relative; }
 
-main .title-container {
+.profile-container {
   border: 1px solid black;
   margin-top: 13em;
   padding: 30px 20px 30px 120px; }
 
-main .circle-outer {
+.circle-outer {
   border: 1px solid black;
   border-radius: 50%;
   width: 200px;
@@ -16,7 +16,7 @@ main .circle-outer {
   position: absolute;
   top: 100px;
   left: 0; }
-  main .circle-outer .circle-inner {
+  .circle-outer .circle-inner {
     width: 150px;
     height: 150px;
     border: 1px solid black;
