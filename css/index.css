@@ -7,6 +7,12 @@
   border: 1px solid black;
   margin-top: 13em;
   padding: 30px 20px 30px 120px; }
+  .profile-container .social-links img {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 70px;
+    padding: 10px;
+    margin: 8px; }
 
 .circle-outer {
   border: 1px solid black;
