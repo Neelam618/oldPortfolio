@@ -25,7 +25,12 @@
             border-radius: 50%;
             position: relative;
             top: 24px;
-            left: 24px;        
+            left: 24px;
+            
+            img {
+                width: inherit;
+                height: inherit;
+            }
         }
     }
     

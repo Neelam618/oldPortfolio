@@ -24,3 +24,6 @@
     position: relative;
     top: 24px;
     left: 24px; }
+    .circle-outer .circle-inner img {
+      width: inherit;
+      height: inherit; }
