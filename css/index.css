@@ -4,6 +4,7 @@
 
 .profile-container {
   border: 1px solid black;
+  border-radius: 20px;
   margin-top: 10em;
   padding: 30px 20px 30px 150px; }
   .profile-container .social-links img {
