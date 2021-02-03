@@ -45,7 +45,6 @@ body {
             border-radius: 25px;
             border-radius: 25px;
             border-radius: 32px;
-            background: #eef2f5;
             background: #f8f8f8;
             box-shadow:  7px 7px 14px #d3d3d3,
                         -7px -7px 14px #ffffff;
@@ -146,12 +145,10 @@ body {
 
 @media screen and (max-width: 524px) {
     .circle-outer {
-        position: absolute;
-        top: 150px;
         left: 10px!important;
     }
     .title {
-        padding: 10px 0px 0 170px !important;
+        padding: 10px 0px 0 150px !important;
     }
 
 }
