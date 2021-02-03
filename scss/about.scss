@@ -1,1 +1,88 @@
 @import "header";
+
+main {
+
+    .about-container{
+        position: relative;
+        border-radius: 20px;
+        margin-top: 10em;
+        padding: 15px;
+        background: #f8f8f8;
+        box-shadow:  7px 7px 14px #d3d3d3,
+                    -7px -7px 14px #ffffff;
+        .title {
+            padding: 30px 20px 0 250px;
+        }
+
+        .social-links {
+            padding: 0 20px 0 250px;
+
+            a.linkedin {
+                position: absolute;
+                top: 90px;
+                left: 3px;
+            }
+
+            a.github {
+                position: absolute;
+                top: 115px;
+                left: 80px;
+            }
+
+            a.mail {
+                position: absolute;
+                top: 90px;
+                left: 160px;
+            }
+
+            img {
+                border-radius: 50%;
+                width: 50px;
+                padding: 10px;
+                margin: 8px;
+                background: linear-gradient(145deg, #ffffff, #dfdfdf);
+                box-shadow:  5px 5px 6px #d0d0d0,
+                            -5px -5px 6px #ffffff;
+            }
+
+            img:hover {
+                background: #f8f8f8;
+                box-shadow: inset 5px 5px 6px #d0d0d0,
+                            inset -5px -5px 6px #ffffff;
+            }
+        }
+    }
+
+    .circle-outer{
+        border-radius: 50%;
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        top: 150px;
+        left: 40px;
+        border-radius: 139px;
+        border-radius: 139px;
+        border-radius: 139px;
+        border-radius: 139px;
+        background: #eef2f5;
+        box-shadow: inset 5px 5px 6px #c3c6c9,
+                    inset -5px -5px 6px #ffffff;
+        
+        .circle-inner {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            position: relative;
+            top: 16px;
+            left: 16px;
+            background: #eef2f5;
+            box-shadow:  5px 5px 6px #c3c6c9,
+                        -5px -5px 6px #ffffff;
+
+            img {
+                width: inherit;
+                height: inherit;
+            }
+        }
+    }    
+}
