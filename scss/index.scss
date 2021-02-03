@@ -38,22 +38,27 @@
         }
     }
     .circle-outer{
-        border: 1px solid black;
         border-radius: 50%;
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
         position: absolute;
-        top: 125px;
+        top: 150px;
         left: 40px;
+        border-radius: 139px;
+        border-radius: 139px;
+        border-radius: 139px;
+        background: linear-gradient(145deg, #e6e6e6, #ffffff);
+        box-shadow:  16px 16px 32px #d6d6d6,
+                     -16px -16px 32px #ffffff;;
         
         .circle-inner {
-            width: 150px;
-            height: 150px;
+            width: 140px;
+            height: 140px;
             border: 1px solid black;
             border-radius: 50%;
             position: relative;
-            top: 24px;
-            left: 24px;
+            top: 20px;
+            left: 20px;
             
             img {
                 width: inherit;
