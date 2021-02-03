@@ -24,8 +24,8 @@ body {
     border-radius: 25px;
     border-radius: 32px;
     background: #eef2f5;
-    background: linear-gradient(145deg, #ffffff, #dfdfdf);
-    box-shadow: 5px 5px 8px #d5d5d5, -5px -5px 8px #ffffff; }
+    background: #f8f8f8;
+    box-shadow: 7px 7px 14px #d3d3d3, -7px -7px 14px #ffffff; }
     .container main .profile-container .social-links img {
       border-radius: 50%;
       width: 50px;
@@ -33,6 +33,9 @@ body {
       margin: 8px;
       background: linear-gradient(145deg, #ffffff, #dfdfdf);
       box-shadow: 5px 5px 6px #d0d0d0, -5px -5px 6px #ffffff; }
+    .container main .profile-container .social-links img:hover {
+      background: #f8f8f8;
+      box-shadow: inset 5px 5px 6px #d0d0d0, inset -5px -5px 6px #ffffff; }
     .container main .profile-container .skills-container {
       margin: 2em 0; }
       .container main .profile-container .skills-container .skills {
