@@ -14,7 +14,6 @@ body {
                     a.nav-link {
 
                         margin-right: 20px;
-                        color: rgb(122, 32, 77);
                         padding: 0.5rem 1.5rem;
                         border-radius: 65px;
                         background: #f8f8f8;
@@ -24,6 +23,7 @@ body {
 
                     a.nav-link:hover, .nav-link.active {
 
+                        color: rgb(50, 113, 230);
                         background-color: #f8f8f8;
                         box-shadow: inset 5px 5px 4px #d8d8d8,
                                 inset -5px -5px 4px #ffffff;
@@ -35,22 +35,24 @@ body {
     }
     main { 
         .profile-container{
+            // position: relative;
             border-radius: 20px;
             margin-top: 10em;
-            padding: 30px 20px 30px 250px;
+            padding: 15px;
             border-radius: 25px;
             border-radius: 25px;
             border-radius: 25px;
             border-radius: 32px;
             background: #eef2f5;
             background: #f8f8f8;
-box-shadow:  7px 7px 14px #d3d3d3,
-             -7px -7px 14px #ffffff;
-                p {
-                    // font-size: 20px;
-                }
+            box-shadow:  7px 7px 14px #d3d3d3,
+                        -7px -7px 14px #ffffff;
+            .title {
+                padding: 30px 20px 0 250px;
+            }
 
             .social-links {
+                padding: 0 20px 0 250px;
 
                 img {
                     border-radius: 50%;
@@ -69,11 +71,14 @@ box-shadow:  7px 7px 14px #d3d3d3,
                 }
             }
             .skills-container {
+                padding: 0 20px 0 250px;
                 margin: 2em 0;
 
                 .skills {
+                    display: inline-block;
                     padding: 8px 25px;
                     margin-right: 10px;
+                    margin-bottom: 10px;
                     border-radius: 30px;
                     border-radius: 24px;
                     background: #f8f8f8;
@@ -116,3 +121,36 @@ box-shadow:  7px 7px 14px #d3d3d3,
         }
     }   
 }
+
+@media screen and (max-width: 992px) {
+    .social-links {
+        padding: 15px 20px 0 235px!important;
+    }
+    .skills-container {
+        padding: 0px 20px 0 20px!important;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .title {
+        padding: 30px 20px 0 200px!important;
+
+    }
+    .social-links {
+        padding: 15px 10px 0 10px!important;
+    }
+}
+
+@media screen and (max-width: 524px) {
+    .circle-outer {
+        position: absolute;
+        top: 150px;
+        left: 10px!important;
+    }
+    .title {
+        padding: 10px 0px 0 170px !important;
+    }
+
+}
+
