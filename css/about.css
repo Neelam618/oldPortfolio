@@ -27,6 +27,10 @@ main .about-container {
   box-shadow: 7px 7px 14px #d3d3d3, -7px -7px 14px #ffffff; }
   main .about-container .title {
     padding: 30px 20px 0 250px; }
+  main .about-container .desc {
+    padding: 20px 30px 20px 250px;
+    font-size: 20px;
+    font-weight: 400; }
   main .about-container .social-links {
     padding: 0 20px 0 250px; }
     main .about-container .social-links a.linkedin {
