@@ -16,16 +16,6 @@ body {
                         margin-right: 20px;
                         color: rgb(122, 32, 77);
                         padding: 0.5rem 1.5rem;
-                        border-radius: 30px;
-                        border-radius: 30px;
-                        border-radius: 30px;
-                        border-radius: 45px;
-                        border-radius: 45px;
-                        border-radius: 45px;
-                        border-radius: 45px;
-                        border-radius: 65px;
-                        border-radius: 65px;
-                        border-radius: 65px;
                         border-radius: 65px;
                         background: #f8f8f8;
                         box-shadow:  5px 5px 8px #e7e7e7,
@@ -46,7 +36,6 @@ body {
             border-radius: 25px;
             border-radius: 32px;
             background: #eef2f5;
-            border-radius: 40px;
 background: linear-gradient(145deg, #ffffff, #dfdfdf);
 box-shadow:  5px 5px 8px #d5d5d5,
              -5px -5px 8px #ffffff;
@@ -61,23 +50,22 @@ box-shadow:  5px 5px 8px #d5d5d5,
                     width: 50px;
                     padding: 10px;
                     margin: 8px;
-                    border-radius: 165px;
-                    background: linear-gradient(145deg, #ffffff, #d6dadd);
-                    box-shadow:  7px 7px 15px #c8cbce,
-                                -7px -7px 15px #ffffff;
+                    background: linear-gradient(145deg, #ffffff, #dfdfdf);
+                    box-shadow:  5px 5px 6px #d0d0d0,
+                                 -5px -5px 6px #ffffff;
                 }
             }
             .skills-container {
                 margin: 2em 0;
 
                 .skills {
-                    border-radius: 50px;
                     padding: 8px 25px;
                     margin-right: 10px;
                     border-radius: 30px;
-                    background: linear-gradient(145deg, #d6dadd, #ffffff);
-                    box-shadow:  8px 8px 17px #c8cbce,
-                                -8px -8px 17px #ffffff;
+                    border-radius: 24px;
+                    background: #f8f8f8;
+                    box-shadow: inset 5px 5px 4px #d8d8d8,
+                                inset -5px -5px 4px #ffffff;
                 }
             }
         }
@@ -92,7 +80,6 @@ box-shadow:  5px 5px 8px #d5d5d5,
             border-radius: 139px;
             border-radius: 139px;
             border-radius: 139px;
-            border-radius: 50%;
 background: #eef2f5;
 box-shadow: inset 5px 5px 6px #c3c6c9,
             inset -5px -5px 6px #ffffff;
@@ -104,7 +91,6 @@ box-shadow: inset 5px 5px 6px #c3c6c9,
                 position: relative;
                 top: 16px;
                 left: 16px;
-                border-radius: 50%;
 background: #eef2f5;
 box-shadow:  5px 5px 6px #c3c6c9,
              -5px -5px 6px #ffffff;
