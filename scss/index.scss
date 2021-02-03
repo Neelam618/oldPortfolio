@@ -8,7 +8,6 @@ body {
 }
 main { 
     .profile-container{
-        // border: 1px solid black;
         border-radius: 20px;
         margin-top: 10em;
         padding: 30px 20px 30px 200px;
@@ -23,11 +22,14 @@ main {
         .social-links {
 
             img {
-                border: 1px solid black;
                 border-radius: 50%;
-                width: 70px;
+                width: 50px;
                 padding: 10px;
                 margin: 8px;
+                border-radius: 165px;
+                background: linear-gradient(145deg, #ffffff, #d6dadd);
+                box-shadow:  7px 7px 15px #c8cbce,
+                            -7px -7px 15px #ffffff;
             }
         }
         .skills-container {

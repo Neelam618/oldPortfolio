@@ -16,11 +16,13 @@ main .profile-container {
   background: #eef2f5;
   box-shadow: 22px 22px 44px #dbdfe1, -22px -22px 44px #ffffff; }
   main .profile-container .social-links img {
-    border: 1px solid black;
     border-radius: 50%;
-    width: 70px;
+    width: 50px;
     padding: 10px;
-    margin: 8px; }
+    margin: 8px;
+    border-radius: 165px;
+    background: linear-gradient(145deg, #ffffff, #d6dadd);
+    box-shadow: 7px 7px 15px #c8cbce, -7px -7px 15px #ffffff; }
   main .profile-container .skills-container {
     margin: 2em 0; }
     main .profile-container .skills-container .skills {
