@@ -12,11 +12,13 @@ body {
       padding: 0.5rem 1.5rem;
       border-radius: 65px;
       background: #f8f8f8;
-      box-shadow: 5px 5px 8px #e7e7e7, -5px -5px 8px #ffffff; }
+      box-shadow: 5px 5px 8px #e7e7e7,
+ -5px -5px 8px #ffffff; }
     .container header nav ul.nav li.nav-item a.nav-link:hover, .container header nav ul.nav li.nav-item .nav-link.active {
       color: #3271e6;
       background-color: #f8f8f8;
-      box-shadow: inset 5px 5px 4px #d8d8d8, inset -5px -5px 4px #ffffff; }
+      box-shadow: inset 5px 5px 4px #d8d8d8,
+ inset -5px -5px 4px #ffffff; }
   .container main .profile-container {
     border-radius: 20px;
     margin-top: 10em;
@@ -27,7 +29,8 @@ body {
     border-radius: 32px;
     background: #eef2f5;
     background: #f8f8f8;
-    box-shadow: 7px 7px 14px #d3d3d3, -7px -7px 14px #ffffff; }
+    box-shadow: 7px 7px 14px #d3d3d3,
+ -7px -7px 14px #ffffff; }
     .container main .profile-container .title {
       padding: 30px 20px 0 250px; }
     .container main .profile-container .social-links {
@@ -38,10 +41,12 @@ body {
         padding: 10px;
         margin: 8px;
         background: linear-gradient(145deg, #ffffff, #dfdfdf);
-        box-shadow: 5px 5px 6px #d0d0d0, -5px -5px 6px #ffffff; }
+        box-shadow: 5px 5px 6px #d0d0d0,
+ -5px -5px 6px #ffffff; }
       .container main .profile-container .social-links img:hover {
         background: #f8f8f8;
-        box-shadow: inset 5px 5px 6px #d0d0d0, inset -5px -5px 6px #ffffff; }
+        box-shadow: inset 5px 5px 6px #d0d0d0,
+ inset -5px -5px 6px #ffffff; }
     .container main .profile-container .skills-container {
       padding: 0 20px 0 250px;
       margin: 2em 0; }
@@ -53,7 +58,8 @@ body {
         border-radius: 30px;
         border-radius: 24px;
         background: #f8f8f8;
-        box-shadow: inset 5px 5px 4px #d8d8d8, inset -5px -5px 4px #ffffff; }
+        box-shadow: inset 5px 5px 4px #d8d8d8,
+ inset -5px -5px 4px #ffffff; }
   .container main .circle-outer {
     border-radius: 50%;
     width: 180px;
@@ -66,7 +72,8 @@ body {
     border-radius: 139px;
     border-radius: 139px;
     background: #eef2f5;
-    box-shadow: inset 5px 5px 6px #c3c6c9, inset -5px -5px 6px #ffffff; }
+    box-shadow: inset 5px 5px 6px #c3c6c9,
+ inset -5px -5px 6px #ffffff; }
     .container main .circle-outer .circle-inner {
       width: 150px;
       height: 150px;
@@ -75,7 +82,8 @@ body {
       top: 16px;
       left: 16px;
       background: #eef2f5;
-      box-shadow: 5px 5px 6px #c3c6c9, -5px -5px 6px #ffffff; }
+      box-shadow: 5px 5px 6px #c3c6c9,
+ -5px -5px 6px #ffffff; }
       .container main .circle-outer .circle-inner img {
         width: inherit;
         height: inherit; }
