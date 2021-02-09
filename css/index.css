@@ -1,4 +1,7 @@
 body {
+  font-size: 1.2rem; }
+
+body {
   background-color: #f8f8f8 !important;
   font-weight: 500 !important; }
 
@@ -17,67 +20,65 @@ body {
       color: #3271e6;
       background-color: #f8f8f8;
       box-shadow: inset 5px 5px 4px #d8d8d8, inset -5px -5px 4px #ffffff; }
-  .container main .profile-container {
-    border-radius: 20px;
-    margin-top: 10em;
-    padding: 15px;
-    border-radius: 25px;
-    border-radius: 25px;
-    border-radius: 25px;
-    border-radius: 32px;
-    background: #f8f8f8;
-    box-shadow: 7px 7px 14px #d3d3d3, -7px -7px 14px #ffffff; }
-    .container main .profile-container .title {
-      padding: 30px 20px 0 250px; }
-    .container main .profile-container .social-links {
-      padding: 0 20px 0 250px; }
-      .container main .profile-container .social-links img {
-        border-radius: 50%;
-        width: 50px;
-        padding: 10px;
-        margin: 8px;
-        background: linear-gradient(145deg, #ffffff, #dfdfdf);
-        box-shadow: 5px 5px 6px #d0d0d0, -5px -5px 6px #ffffff; }
-      .container main .profile-container .social-links img:hover {
-        background: #f8f8f8;
-        box-shadow: inset 5px 5px 6px #d0d0d0, inset -5px -5px 6px #ffffff; }
-    .container main .profile-container .skills-container {
-      padding: 0 20px 0 250px;
-      margin: 2em 0; }
-      .container main .profile-container .skills-container .skills {
-        display: inline-block;
-        padding: 8px 25px;
-        margin-right: 10px;
-        margin-bottom: 10px;
-        border-radius: 30px;
-        border-radius: 24px;
-        background: #f8f8f8;
-        box-shadow: inset 5px 5px 4px #d8d8d8, inset -5px -5px 4px #ffffff; }
-  .container main .circle-outer {
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    position: absolute;
-    top: 150px;
-    left: 40px;
-    border-radius: 139px;
-    border-radius: 139px;
-    border-radius: 139px;
-    border-radius: 139px;
-    background: #eef2f5;
-    box-shadow: inset 5px 5px 6px #c3c6c9, inset -5px -5px 6px #ffffff; }
-    .container main .circle-outer .circle-inner {
-      width: 150px;
-      height: 150px;
+
+.container main .profile-container {
+  border-radius: 20px;
+  margin-top: 10em;
+  padding: 15px;
+  background: #f8f8f8;
+  box-shadow: 7px 7px 14px #d3d3d3, -7px -7px 14px #ffffff; }
+  .container main .profile-container .title {
+    padding: 30px 20px 0 250px; }
+  .container main .profile-container .social-links {
+    padding: 0 20px 0 250px; }
+    .container main .profile-container .social-links img {
       border-radius: 50%;
-      position: relative;
-      top: 16px;
-      left: 16px;
-      background: #eef2f5;
-      box-shadow: 5px 5px 6px #c3c6c9, -5px -5px 6px #ffffff; }
-      .container main .circle-outer .circle-inner img {
-        width: inherit;
-        height: inherit; }
+      width: 50px;
+      padding: 10px;
+      margin: 8px;
+      background: linear-gradient(145deg, #ffffff, #dfdfdf);
+      box-shadow: 5px 5px 6px #d0d0d0, -5px -5px 6px #ffffff; }
+    .container main .profile-container .social-links img:hover {
+      background: #f8f8f8;
+      box-shadow: inset 5px 5px 6px #d0d0d0, inset -5px -5px 6px #ffffff; }
+  .container main .profile-container .skills-container {
+    padding: 0 20px 0 250px;
+    margin: 2em 0; }
+    .container main .profile-container .skills-container .skills {
+      display: inline-block;
+      padding: 8px 25px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      border-radius: 30px;
+      border-radius: 24px;
+      background: #f8f8f8;
+      box-shadow: inset 5px 5px 4px #d8d8d8, inset -5px -5px 4px #ffffff; }
+
+.container main .circle-outer {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 150px;
+  left: 40px;
+  border-radius: 139px;
+  border-radius: 139px;
+  border-radius: 139px;
+  border-radius: 139px;
+  background: #eef2f5;
+  box-shadow: inset 5px 5px 6px #c3c6c9, inset -5px -5px 6px #ffffff; }
+  .container main .circle-outer .circle-inner {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: 16px;
+    left: 16px;
+    background: #eef2f5;
+    box-shadow: 5px 5px 6px #c3c6c9, -5px -5px 6px #ffffff; }
+    .container main .circle-outer .circle-inner img {
+      width: inherit;
+      height: inherit; }
 
 @media screen and (max-width: 992px) {
   .social-links {
