@@ -28,7 +28,7 @@ main .about-container {
   main .about-container .title {
     padding: 30px 20px 0 250px; }
   main .about-container .desc {
-    padding: 20px 30px 20px 250px;
+    padding: 20px 140px 50px 250px;
     font-size: 20px;
     font-weight: 400; }
   main .about-container .social-links {
