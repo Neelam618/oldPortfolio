@@ -10,9 +10,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     
-    <!-- Fonts -->
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -39,11 +37,27 @@
         <div class="container">
             <div class="prj-container">
                 <div class="row">
-                    <div class="col-md-6 col-xl-4">
+                    <div class="col-6">
                         <div class="card">
-                            <h1>Brain 2 Pocket</h1>
-                            <div>
-                                <img src="" alt="">
+                            <h2 class="card-title text-center">Brain 2 Pocket</h2>
+                            <div class="text-center">
+                                <img src="img/Style Stage.png" alt="Style Stage">
+                            </div>
+                            <div class="card-body text-center">
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Built a static website for a small consulting business to improve its web presence</li>
+                                        <div id="moretxt" class="more-txt">
+                                            <li>Used a Bootstrap template to quickly build a good looking, performant website as per the client's requirements.</li>
+                                            <li>Customized the website in various ways as per the client's feedback.</li>
+                                        </div>
+                                    </ul>
+                                </p>
+                                <button id="togglebtn">Read more</button>
+                            </div>
+                            <div class="card-links text-center">
+                                <a href="">Launch Site</a>
+                                <a href="">View Code</a>
                             </div>
                         </div>
 
@@ -53,6 +67,26 @@
             </div>
         </div>
     </main>
+
+
+
+    <script>
+        $(document).ready(function() {
+            $("#togglebtn").click(function() {
+                var elem = $("#togglebtn").text();
+                if (elem == "Read More") {
+                    //Stuff to do when btn is in the read more state
+                    $("#togglebtn").text("Read Less");
+                    $("#moretxt").slideDown();
+                } 
+                else {
+                    //Stuff to do when btn is in the read less state
+                    $("#togglebtn").text("Read More");
+                    $("#moretxt").slideUp();
+                }
+            });
+        });
+    </script>
 </body>
 </html>
 

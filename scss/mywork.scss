@@ -9,6 +9,18 @@ main {
             background: #f8f8f8;
             box-shadow:  7px 7px 14px #d3d3d3,
                         -7px -7px 14px #ffffff;
+
+                .card {
+                    .card-body {
+                        .card-text {
+                            ul {
+                                #moretxt {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
         }
     }
 }
