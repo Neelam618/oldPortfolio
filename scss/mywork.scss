@@ -12,15 +12,12 @@ main {
 
                 .card {
                     .card-body {
-                        .card-text {
-                            ul {
-                                #moretxt {
-                                    display: none;
-                                }
-                            }
+                        #moretxt {
+                            display: none;
                         }
                     }
                 }
         }
     }
 }
+
