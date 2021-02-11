@@ -3,17 +3,44 @@
 main {
     .container {
         .prj-container {
-            border-radius: 20px;
-            margin-top: 10em;
-            padding: 15px;
-            background: #f8f8f8;
-            box-shadow:  7px 7px 14px #d3d3d3,
-                        -7px -7px 14px #ffffff;
-
+            margin: 10em 0;
                 .card {
+                    border-radius: 7px;
+                    background: #f8f8f8;
+                    box-shadow:  7px 7px 6px #e2e2e2,
+                                -7px -7px 6px #ffffff;
+                                border: none;
+                    .card-title {
+                        padding: 0.3em 0;
+                        border-radius: 7px;
+                        background: #f8f8f8;
+                        box-shadow:  7px 7px 6px #e2e2e2,
+                                    -7px -7px 6px #ffffff;
+                    }
+                    .image {
+                        border-radius: 7px;
+                        background: #f8f8f8;
+                        box-shadow:  7px 7px 6px #e2e2e2,
+                                    -7px -7px 6px #ffffff;
+                        padding: 20px;
+                    }
                     .card-body {
                         #moretxt {
                             display: none;
+                        }
+                        button {
+                            background: none!important;
+                            border: none;
+                            padding: 0!important;
+                            outline: none;
+                        }
+                    }
+                    .card-links {
+                        a {
+                            background-color: #e42e9f;
+                            padding: 5px 8px;
+                            color: white;
+                            border-radius: 6px;
                         }
                     }
                 }

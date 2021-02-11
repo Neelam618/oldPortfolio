@@ -1,0 +1,22 @@
+body {
+  font-weight: 500 !important;
+  background-color: #f8f8f8 !important; }
+
+* {
+  background-color: #f8f8f8; }
+
+.container {
+  padding: 0 100px;
+  position: relative; }
+  .container header nav ul.nav li.nav-item {
+    margin-bottom: 15px; }
+    .container header nav ul.nav li.nav-item a.nav-link {
+      margin-right: 20px;
+      padding: 0.5rem 1.5rem;
+      border-radius: 65px;
+      background: #f8f8f8;
+      box-shadow: 5px 5px 8px #e7e7e7, -5px -5px 8px #ffffff; }
+    .container header nav ul.nav li.nav-item a.nav-link:hover, .container header nav ul.nav li.nav-item .nav-link.active {
+      color: #3271e6;
+      background-color: #f8f8f8;
+      box-shadow: inset 5px 5px 4px #d8d8d8, inset -5px -5px 4px #ffffff; }

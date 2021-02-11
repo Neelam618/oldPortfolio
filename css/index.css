@@ -2,8 +2,11 @@ body {
   font-size: 1.2rem; }
 
 body {
-  background-color: #f8f8f8 !important;
-  font-weight: 500 !important; }
+  font-weight: 500 !important;
+  background-color: #f8f8f8 !important; }
+
+* {
+  background-color: #f8f8f8; }
 
 .container {
   padding: 0 100px;
