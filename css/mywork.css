@@ -21,32 +21,33 @@ body {
       background-color: #f8f8f8;
       box-shadow: inset 5px 5px 4px #d8d8d8, inset -5px -5px 4px #ffffff; }
 
-main .container .prj-container {
-  margin: 10em 0; }
-  main .container .prj-container .card {
+main .prj-container {
+  margin-top: 6em;
+  padding: 15px; }
+  main .prj-container .card {
     border-radius: 7px;
     background: #f8f8f8;
     box-shadow: 7px 7px 6px #e2e2e2, -7px -7px 6px #ffffff;
     border: none;
     margin: 40px; }
-    main .container .prj-container .card .card-title {
+    main .prj-container .card .card-title {
       padding: 0.3em 0;
       border-radius: 7px;
       background: #f8f8f8;
       box-shadow: 7px 7px 6px #e2e2e2, -7px -7px 6px #ffffff; }
-    main .container .prj-container .card .image {
+    main .prj-container .card .image {
       border-radius: 7px;
       background: #f8f8f8;
       box-shadow: 7px 7px 6px #e2e2e2, -7px -7px 6px #ffffff;
       padding: 20px; }
-    main .container .prj-container .card .card-body .toggle-text {
+    main .prj-container .card .card-body .toggle-text {
       display: none; }
-    main .container .prj-container .card .card-body button {
+    main .prj-container .card .card-body button {
       background: none !important;
       border: none;
       padding: 0 !important;
       outline: none; }
-    main .container .prj-container .card .card-links a {
+    main .prj-container .card .card-links a {
       background-color: #e42e9f;
       padding: 5px 8px;
       color: white;

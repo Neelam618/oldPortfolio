@@ -1,51 +1,50 @@
 @import "header";
 
 main {
-    .container {
-        .prj-container {
-            margin: 10em 0;
-                .card {
+    .prj-container {
+        margin-top: 6em;
+        padding: 15px;
+            .card {
+                border-radius: 7px;
+                background: #f8f8f8;
+                box-shadow:  7px 7px 6px #e2e2e2,
+                            -7px -7px 6px #ffffff;
+                            border: none;
+                            margin: 40px;
+                .card-title {
+                    padding: 0.3em 0;
                     border-radius: 7px;
                     background: #f8f8f8;
                     box-shadow:  7px 7px 6px #e2e2e2,
                                 -7px -7px 6px #ffffff;
-                                border: none;
-                                margin: 40px;
-                    .card-title {
-                        padding: 0.3em 0;
-                        border-radius: 7px;
-                        background: #f8f8f8;
-                        box-shadow:  7px 7px 6px #e2e2e2,
-                                    -7px -7px 6px #ffffff;
+                }
+                .image {
+                    border-radius: 7px;
+                    background: #f8f8f8;
+                    box-shadow:  7px 7px 6px #e2e2e2,
+                                -7px -7px 6px #ffffff;
+                    padding: 20px;
+                }
+                .card-body {
+                    .toggle-text {
+                        display: none;
                     }
-                    .image {
-                        border-radius: 7px;
-                        background: #f8f8f8;
-                        box-shadow:  7px 7px 6px #e2e2e2,
-                                    -7px -7px 6px #ffffff;
-                        padding: 20px;
-                    }
-                    .card-body {
-                        .toggle-text {
-                            display: none;
-                        }
-                        button {
-                            background: none!important;
-                            border: none;
-                            padding: 0!important;
-                            outline: none;
-                        }
-                    }
-                    .card-links {
-                        a {
-                            background-color: #e42e9f;
-                            padding: 5px 8px;
-                            color: white;
-                            border-radius: 6px;
-                        }
+                    button {
+                        background: none!important;
+                        border: none;
+                        padding: 0!important;
+                        outline: none;
                     }
                 }
-        }
+                .card-links {
+                    a {
+                        background-color: #e42e9f;
+                        padding: 5px 8px;
+                        color: white;
+                        border-radius: 6px;
+                    }
+                }
+            }
     }
 }
 
