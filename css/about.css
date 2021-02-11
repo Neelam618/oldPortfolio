@@ -83,4 +83,5 @@ main .circle-outer {
     box-shadow: 5px 5px 6px #c3c6c9, -5px -5px 6px #ffffff; }
     main .circle-outer .circle-inner img {
       width: inherit;
-      height: inherit; }
+      height: inherit;
+      border-radius: 50%; }

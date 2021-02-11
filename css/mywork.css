@@ -31,10 +31,7 @@ main .prj-container {
     border: none;
     margin: 40px; }
     main .prj-container .card .card-title {
-      padding: 0.3em 0;
-      border-radius: 7px;
-      background: #f8f8f8;
-      box-shadow: 7px 7px 6px #e2e2e2, -7px -7px 6px #ffffff; }
+      padding: 0.3em 0; }
     main .prj-container .card .image {
       border-radius: 7px;
       background: #f8f8f8;
@@ -46,7 +43,8 @@ main .prj-container {
       background: none !important;
       border: none;
       padding: 0 !important;
-      outline: none; }
+      outline: none;
+      margin-top: 18px; }
     main .prj-container .card .card-links a {
       background-color: #e42e9f;
       padding: 5px 8px;

@@ -13,10 +13,6 @@ main {
                             margin: 40px;
                 .card-title {
                     padding: 0.3em 0;
-                    border-radius: 7px;
-                    background: #f8f8f8;
-                    box-shadow:  7px 7px 6px #e2e2e2,
-                                -7px -7px 6px #ffffff;
                 }
                 .image {
                     border-radius: 7px;
@@ -34,6 +30,7 @@ main {
                         border: none;
                         padding: 0!important;
                         outline: none;
+                        margin-top: 18px;
                     }
                 }
                 .card-links {
@@ -46,5 +43,6 @@ main {
                 }
             }
     }
+    
 }
 
