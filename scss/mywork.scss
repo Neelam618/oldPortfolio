@@ -10,6 +10,7 @@ main {
                     box-shadow:  7px 7px 6px #e2e2e2,
                                 -7px -7px 6px #ffffff;
                                 border: none;
+                                margin: 40px;
                     .card-title {
                         padding: 0.3em 0;
                         border-radius: 7px;
@@ -25,7 +26,7 @@ main {
                         padding: 20px;
                     }
                     .card-body {
-                        #moretxt {
+                        .toggle-text {
                             display: none;
                         }
                         button {

@@ -48,11 +48,11 @@
                                 <p class="card-text">
                                     <ul>
                                         <li>Built a static website for a small consulting business to improve its web presence</li>
-                                        <div id="moretxt" class="more-txt">
+                                        <div class="toggle-text">
                                             <li>Used a Bootstrap template to quickly build a good looking, performant website as per the client's requirements.</li>
                                             <li>Customized the website in various ways as per the client's feedback.</li>
                                         </div>
-                                        <button id="togglebtn" class="mt-3">Read More</button>
+                                        <button class="toggle-txt-btn" class="mt-3">Read More</button>
                                     </ul>
                                 </p>
                             </div>
@@ -61,8 +61,32 @@
                                 <a href="" class="mx-4 text-decoration-none">View Code</a>
                             </div>
                         </div>
-
                     </div>
+                    <div class="col-6">
+                        <div class="card d-flex flex-column py-5 px-4">
+                            <h2 class="card-title text-center">Brain 2 Pocket</h2>
+                            <div class="image text-center">
+                                <img src="img/Style-Stage.png" class="w-100" alt="Style Stage">
+                            </div>
+                            <div class="card-body text-left m-2">
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Built a static website for a small consulting business to improve its web presence</li>
+                                        <div class="toggle-text">
+                                            <li>Used a Bootstrap template to quickly build a good looking, performant website as per the client's requirements.</li>
+                                            <li>Customized the website in various ways as per the client's feedback.</li>
+                                        </div>
+                                        <button class="toggle-txt-btn" class="mt-3">Read More</button>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="card-links text-center d-flex justify-content-center">
+                                <a href="" class="mx-4 text-decoration-none">Launch Site</a>
+                                <a href="" class="mx-4 text-decoration-none">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    
 
                 </div>
             </div>
@@ -72,21 +96,31 @@
 
 
     <script>
-        $(document).ready(function() {
-            $("#togglebtn").click(function() {
-                var elem = $("#togglebtn").text();
-                if (elem == "Read More") {
-                    //Stuff to do when btn is in the read more state
-                    $("#togglebtn").text("Read Less");
-                    $("#moretxt").slideDown();
-                } 
-                else {
-                    //Stuff to do when btn is in the read less state
-                    $("#togglebtn").text("Read More");
-                    $("#moretxt").slideUp();
-                }
-            });
-        });
+        // Add click event dynamically
+        $(document).on("click", ".toggle-txt-btn", function() {
+
+            // Check if text is more or less
+            if ($(this).text() == "Read More") {
+
+            // Change link text
+            $(this).text("Read Less");
+            
+            // Travel up DOM tree to parent, then find any children with CLASS .toggle-text and slide down
+            $(this).parent().children(".toggle-text").slideDown();
+            
+        } 
+        else {
+
+        // Change link text
+        $(this).text("Read More");
+        
+        // Travel up DOM tree to parent, then find any children with CLASS .toggle-text and slide up 
+        $(this).parent().children(".toggle-text").slideUp();
+        
+    }
+
+    });
+
     </script>
 </body>
 </html>

@@ -27,7 +27,8 @@ main .container .prj-container {
     border-radius: 7px;
     background: #f8f8f8;
     box-shadow: 7px 7px 6px #e2e2e2, -7px -7px 6px #ffffff;
-    border: none; }
+    border: none;
+    margin: 40px; }
     main .container .prj-container .card .card-title {
       padding: 0.3em 0;
       border-radius: 7px;
@@ -38,7 +39,7 @@ main .container .prj-container {
       background: #f8f8f8;
       box-shadow: 7px 7px 6px #e2e2e2, -7px -7px 6px #ffffff;
       padding: 20px; }
-    main .container .prj-container .card .card-body #moretxt {
+    main .container .prj-container .card .card-body .toggle-text {
       display: none; }
     main .container .prj-container .card .card-body button {
       background: none !important;
