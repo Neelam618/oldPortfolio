@@ -37,18 +37,18 @@ main .prj-container {
       background: #f8f8f8;
       box-shadow: 7px 7px 6px #e2e2e2, -7px -7px 6px #ffffff;
       padding: 20px; }
-    main .prj-container .card .card-body .toggle-text {
-      display: none; }
-    main .prj-container .card .card-body .toggle-txt-btn {
-      background: none !important;
-      border: none;
-      padding: 0 !important;
-      outline: none;
-      margin-top: 18px;
-      color: #0008ff;
-      font-weight: 600; }
-    main .prj-container .card .card-body img {
-      width: 17px; }
+    main .prj-container .card .card-body ul {
+      font-size: large; }
+      main .prj-container .card .card-body ul .toggle-text {
+        display: none; }
+      main .prj-container .card .card-body ul .toggle-txt-btn {
+        background: none !important;
+        border: none;
+        padding: 0 !important;
+        outline: none;
+        margin-top: 18px;
+        color: #0008ff;
+        font-weight: 600; }
     main .prj-container .card .card-links a {
       background-color: #e42e9f;
       padding: 5px 8px;

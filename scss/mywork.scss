@@ -22,21 +22,22 @@ main {
                     padding: 20px;
                 }
                 .card-body {
-                    .toggle-text {
-                        display: none;
+                    ul {
+                        font-size: large;
+                        .toggle-text {
+                            display: none;
+                        }
+                        .toggle-txt-btn {
+                            background: none!important;
+                            border: none;
+                            padding: 0!important;
+                            outline: none;
+                            margin-top: 18px;
+                            color: #0008ff;
+                            font-weight: 600;
+                        }
                     }
-                    .toggle-txt-btn {
-                        background: none!important;
-                        border: none;
-                        padding: 0!important;
-                        outline: none;
-                        margin-top: 18px;
-                        color: #0008ff;
-                        font-weight: 600;
-                    }
-                    img {
-                        width: 17px;
-                    }
+                    
                 }
                 .card-links {
                     a {
