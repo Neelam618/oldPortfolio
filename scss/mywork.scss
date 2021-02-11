@@ -25,12 +25,17 @@ main {
                     .toggle-text {
                         display: none;
                     }
-                    button {
+                    .toggle-txt-btn {
                         background: none!important;
                         border: none;
                         padding: 0!important;
                         outline: none;
                         margin-top: 18px;
+                        color: #0008ff;
+                        font-weight: 600;
+                    }
+                    img {
+                        width: 17px;
                     }
                 }
                 .card-links {
