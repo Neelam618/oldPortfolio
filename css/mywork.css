@@ -26,7 +26,6 @@ main .prj-container {
   margin-top: 6em;
   padding: 15px; }
   main .prj-container .card {
-    max-height: 650px;
     border-radius: 7px;
     background: #f8f8f8;
     box-shadow: 7px 7px 6px #e2e2e2, -7px -7px 6px #ffffff;
