@@ -42,10 +42,18 @@ main {
                 }
                 .card-links {
                     a {
-                        background-color: #e42e9f;
-                        padding: 5px 8px;
-                        color: white;
-                        border-radius: 6px;
+                        .launchSiteBtn {
+                            color: white;
+                            // background-image: linear-gradient(to bottom right, #ef3bc8, #9b2bca);
+                            background-color: #e415b2;
+                            font-size: large;
+                            border-radius: 7px;
+                            border: none;
+                            .card-icon {
+                                background-color: inherit;
+                                padding-right: 10px;
+                            }
+                        }
                     }
                 }
             }

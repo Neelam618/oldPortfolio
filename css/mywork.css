@@ -50,8 +50,12 @@ main .prj-container {
         margin-top: 18px;
         color: #0008ff;
         font-weight: 500; }
-    main .prj-container .card .card-links a {
-      background-color: #e42e9f;
-      padding: 5px 8px;
+    main .prj-container .card .card-links a .launchSiteBtn {
       color: white;
-      border-radius: 6px; }
+      background-color: #e415b2;
+      font-size: large;
+      border-radius: 7px;
+      border: none; }
+      main .prj-container .card .card-links a .launchSiteBtn .card-icon {
+        background-color: inherit;
+        padding-right: 10px; }
