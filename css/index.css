@@ -96,7 +96,9 @@ body {
   .title {
     padding: 30px 20px 0 220px !important; }
   .social-links {
-    padding: 15px 10px 0 10px !important; } }
+    padding: 15px 10px 0 10px !important; }
+  .circle-outer {
+    top: 195px !important; } }
 
 @media screen and (max-width: 524px) {
   .circle-outer {
