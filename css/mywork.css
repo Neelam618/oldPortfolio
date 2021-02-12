@@ -1,6 +1,7 @@
 body {
   font-weight: 500 !important;
-  background-color: #f8f8f8 !important; }
+  background-color: #f8f8f8 !important;
+  font-size: 1.1rem !important; }
 
 * {
   background-color: #f8f8f8; }
