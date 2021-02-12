@@ -52,7 +52,7 @@
                                                 <li>Used a Bootstrap template to quickly build a good looking, performant website as per the client's requirements.</li>
                                                 <li>Customized the website in various ways as per the client's feedback.</li>
                                             </div>
-                                            <button class="toggle-txt-btn">Read More</button>
+                                            <button class="toggle-txt-btn">Read More..</button>
                                         </ul>
                                     </p>
                                 </div>
@@ -76,7 +76,7 @@
                                                 <li>Used a Bootstrap template to quickly build a good looking, performant website as per the client's requirements.</li>
                                                 <li>Customized the website in various ways as per the client's feedback.</li>
                                             </div>
-                                            <button class="toggle-txt-btn">Read More</button>
+                                            <button class="toggle-txt-btn">Read More..</button>
                                         </ul>
                                     </p>
                                 </div>
@@ -101,7 +101,7 @@
         $(document).on("click", ".toggle-txt-btn", function() {
 
             // Check if text is more or less
-            if ($(this).text() == "Read More") {
+            if ($(this).text() == "Read More..") {
 
             // Change link text
             $(this).text("Read Less");
@@ -113,7 +113,7 @@
         else {
 
         // Change link text
-        $(this).text("Read More");
+        $(this).text("Read More..");
         
         // Travel up DOM tree to parent, then find any children with CLASS .toggle-text and slide up 
         $(this).parent().children(".toggle-text").slideUp();

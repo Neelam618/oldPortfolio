@@ -38,7 +38,8 @@ main .prj-container {
       box-shadow: 7px 7px 6px #e2e2e2, -7px -7px 6px #ffffff;
       padding: 20px; }
     main .prj-container .card .card-body ul {
-      font-size: large; }
+      font-size: larger;
+      font-weight: 460; }
       main .prj-container .card .card-body ul .toggle-text {
         display: none; }
       main .prj-container .card .card-body ul .toggle-txt-btn {
@@ -48,7 +49,7 @@ main .prj-container {
         outline: none;
         margin-top: 18px;
         color: #0008ff;
-        font-weight: 600; }
+        font-weight: 500; }
     main .prj-container .card .card-links a {
       background-color: #e42e9f;
       padding: 5px 8px;

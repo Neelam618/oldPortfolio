@@ -23,7 +23,8 @@ main {
                 }
                 .card-body {
                     ul {
-                        font-size: large;
+                        font-size: larger;
+                        font-weight: 460;
                         .toggle-text {
                             display: none;
                         }
@@ -34,7 +35,7 @@ main {
                             outline: none;
                             margin-top: 18px;
                             color: #0008ff;
-                            font-weight: 600;
+                            font-weight: 500;
                         }
                     }
                     
