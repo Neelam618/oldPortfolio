@@ -1,5 +1,8 @@
 @import "header";
-
+body {
+    background: url("/img/waves.png") repeat-y;
+    background-size: contain;
+}
 main {
     .prj-container {
         padding: 15px;
