@@ -2,10 +2,8 @@
 
 main {
     .prj-container {
-        margin-top: 6em;
         padding: 15px;
             .card {
-                // height: 650px;
                 border-radius: 7px;
                 background: #f8f8f8;
                 box-shadow:  7px 7px 6px #e2e2e2,
@@ -13,7 +11,7 @@ main {
                             border: none;
                             margin: 40px;
                 .card-title {
-                    padding: 0.3em 0;
+                    padding-bottom: 30px;
                 }
                 .image {
                     border-radius: 7px;

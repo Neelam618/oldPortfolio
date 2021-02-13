@@ -1,10 +1,9 @@
 body {
   font-weight: 500 !important;
   background-color: #f8f8f8 !important;
-  font-size: 1.1rem !important; }
-
-* {
-  background-color: #f8f8f8; }
+  font-size: 1.2rem !important;
+  background: url("/img/waves.png") no-repeat;
+  background-size: cover; }
 
 .container {
   padding: 0 100px;
@@ -23,7 +22,6 @@ body {
       box-shadow: inset 5px 5px 4px #d8d8d8, inset -5px -5px 4px #ffffff; }
 
 main .prj-container {
-  margin-top: 6em;
   padding: 15px; }
   main .prj-container .card {
     border-radius: 7px;
@@ -32,7 +30,7 @@ main .prj-container {
     border: none;
     margin: 40px; }
     main .prj-container .card .card-title {
-      padding: 0.3em 0; }
+      padding-bottom: 30px; }
     main .prj-container .card .image {
       border-radius: 7px;
       background: #f8f8f8;
