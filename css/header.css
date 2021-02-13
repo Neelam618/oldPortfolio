@@ -3,7 +3,8 @@ body {
   background-color: #f8f8f8 !important;
   font-size: 1.2rem !important;
   background: url("/img/waves.png") no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  overflow-x: hidden; }
 
 .container {
   padding: 0 100px;
