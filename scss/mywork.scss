@@ -30,6 +30,8 @@ main {
                     ul {
                         font-size: larger;
                         font-weight: 460;
+                        padding-left: 14px;
+                        list-style: none;
                         .toggle-text {
                             display: none;
                         }
@@ -43,7 +45,15 @@ main {
                             font-weight: 500;
                         }
                     }
-                    
+                    ul li::before {
+                        content: "\2022";
+                        color: rgb(0, 204, 255);
+                        font-weight: bold;
+                        display: inline-block; 
+                        width: 1em;
+                        margin-left: -1em;
+                        font-size: 2rem;
+                      }
                 }
                 .card-links {
                     a {
@@ -64,7 +74,6 @@ main {
                 }
             }
     }
-    
 }
 
 @media screen and (max-width:576px){
@@ -79,7 +88,13 @@ main {
             padding: 0;
             ul {
                 font-size: 1.1rem!important;
+                padding-left: 20px!important;
             }
+            ul li::before {
+                width: 0em;
+                margin: -0.2em;
+            }
+
         }
         .card-links {
             a {
