@@ -1,6 +1,3 @@
-html, body {
-  overflow-x: hidden; }
-
 body {
   font-weight: 500 !important;
   background-color: #f8f8f8 !important;
@@ -23,6 +20,9 @@ body {
       color: #3271e6;
       background-color: #f8f8f8;
       box-shadow: inset 5px 5px 4px #d8d8d8, inset -5px -5px 4px #ffffff; }
+
+html, body {
+  overflow-x: hidden; }
 
 body {
   background: url("/img/waves.png") repeat-y;

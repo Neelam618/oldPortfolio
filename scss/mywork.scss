@@ -1,4 +1,7 @@
 @import "header";
+html, body {
+    overflow-x: hidden;
+}
 body {
     background: url("/img/waves.png") repeat-y;
     background-size: contain;
