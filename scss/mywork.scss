@@ -59,7 +59,6 @@ main {
                     a {
                         .btn {
                             color: white;
-                            // background-image: linear-gradient(to bottom right, #ef3bc8, #9b2bca);
                             background-color: #e415b2;
                             font-size: large;
                             border-radius: 7px;
@@ -86,15 +85,15 @@ main {
         margin: 25px!important;
         .card-body {
             padding: 0;
-            ul {
-                font-size: 1.1rem!important;
-                padding-left: 20px!important;
+            font-size: 1rem;
+            ul li {
+                position: relative;
             }
-            ul li::before {
-                width: 0em;
-                margin: -0.2em;
+            ul li::before { 
+                position: absolute;
+                top: -12px;
+                left: 8px;
             }
-
         }
         .card-links {
             a {
@@ -104,5 +103,6 @@ main {
             }
         }
     }
-    
 }
+
+

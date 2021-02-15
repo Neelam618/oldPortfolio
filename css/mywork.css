@@ -83,12 +83,13 @@ main .prj-container {
   .card {
     margin: 25px !important; }
     .card .card-body {
-      padding: 0; }
-      .card .card-body ul {
-        font-size: 1.1rem !important;
-        padding-left: 20px !important; }
+      padding: 0;
+      font-size: 1rem; }
+      .card .card-body ul li {
+        position: relative; }
       .card .card-body ul li::before {
-        width: 0em;
-        margin: -0.2em; }
+        position: absolute;
+        top: -12px;
+        left: 8px; }
     .card .card-links a .btn {
       font-size: 1rem !important; } }
