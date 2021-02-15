@@ -45,7 +45,7 @@ main .prj-container {
       padding: 20px; }
     main .prj-container .card .card-body ul {
       font-size: larger;
-      font-weight: 460;
+      font-weight: 400;
       padding-left: 14px;
       list-style: none; }
       main .prj-container .card .card-body ul .toggle-text {
@@ -90,7 +90,7 @@ main .prj-container {
         position: relative; }
       .card .card-body ul li::before {
         position: absolute;
-        top: -13px;
+        top: -12px;
         left: 8px; }
     .card .card-links a .btn {
       font-size: 1rem !important; } }
