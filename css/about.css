@@ -34,7 +34,9 @@ main .about-container {
     padding: 20px 140px 50px 250px;
     font-size: 20px;
     font-weight: 400;
-    text-align: justify; }
+    text-align: justify;
+    line-height: 1.8;
+    letter-spacing: 0.8px; }
   main .about-container .social-links {
     padding: 0 20px 0 250px; }
     main .about-container .social-links a.linkedin {

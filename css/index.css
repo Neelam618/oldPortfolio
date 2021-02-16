@@ -29,6 +29,8 @@ body {
   box-shadow: 7px 7px 14px #d3d3d3, -7px -7px 14px #ffffff; }
   .container main .profile-container .title {
     padding: 30px 20px 0 250px; }
+    .container main .profile-container .title p {
+      font-weight: 400; }
   .container main .profile-container .social-links {
     padding: 0 20px 0 250px; }
     .container main .profile-container .social-links img {
@@ -42,10 +44,11 @@ body {
       background: #f8f8f8;
       box-shadow: inset 5px 5px 6px #d0d0d0, inset -5px -5px 6px #ffffff; }
   .container main .profile-container .skills-container {
-    padding: 0 20px 30px 250px;
+    padding: 20px 20px 30px 250px;
     margin: 2em 0; }
     .container main .profile-container .skills-container .skills {
       display: inline-block;
+      color: #ff008d;
       padding: 8px 25px;
       margin-right: 10px;
       margin-bottom: 10px;
@@ -85,7 +88,7 @@ body {
   .social-links {
     padding: 15px 20px 0 235px !important; }
   .skills-container {
-    padding: 0px 20px 30px 20px !important;
+    padding: 20px 20px 30px 20px !important;
     margin-bottom: 0; } }
 
 @media screen and (max-width: 767px) {
