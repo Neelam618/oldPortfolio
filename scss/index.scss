@@ -85,17 +85,6 @@
         }
     }   
 }
-
-// .bgcircles {
-//     img {
-//         width: 1900px;
-//     position: absolute;
-//     top: 0px;
-//     left: 100px;
-//     z-index: -111111;
-//     }
-// }
-
 @media screen and (max-width: 992px) {
     .social-links {
         padding: 15px 20px 0 235px!important;
@@ -105,7 +94,6 @@
         margin-bottom: 0;
     }
 }
-
 @media screen and (max-width: 767px) {
     .title {
         padding: 30px 20px 0 220px!important;
@@ -118,7 +106,6 @@
         top: 195px!important;
     }
 }
-
 @media screen and (max-width: 524px) {
     .circle-outer {
         left: 10px!important;
@@ -126,6 +113,5 @@
     .title {
         padding: 10px 0px 0 42%!important;
     }
-
 }
 
