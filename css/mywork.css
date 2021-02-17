@@ -43,29 +43,30 @@ main .prj-container {
       background: #f8f8f8;
       box-shadow: 7px 7px 6px #e2e2e2, -7px -7px 6px #ffffff;
       padding: 20px; }
-    main .prj-container .card .card-body ul {
-      font-size: larger;
-      font-weight: 400;
-      padding-left: 14px;
-      list-style: none; }
-      main .prj-container .card .card-body ul .toggle-text {
-        display: none; }
-      main .prj-container .card .card-body ul .toggle-txt-btn {
-        background: none !important;
-        border: none;
-        padding: 0 !important;
-        outline: none;
-        margin-top: 18px;
-        color: #0008ff;
-        font-weight: 500; }
-    main .prj-container .card .card-body ul li::before {
-      content: "\2022";
-      color: #00ccff;
-      font-weight: bold;
-      display: inline-block;
-      width: 1em;
-      margin-left: -1em;
-      font-size: 2rem; }
+    main .prj-container .card .card-body {
+      color: #484d67; }
+      main .prj-container .card .card-body ul {
+        font-size: larger;
+        font-weight: 400;
+        padding-left: 14px;
+        list-style: none; }
+        main .prj-container .card .card-body ul .toggle-text {
+          display: none; }
+        main .prj-container .card .card-body ul .toggle-txt-btn {
+          background: none !important;
+          border: none;
+          padding: 0 !important;
+          margin-top: 18px;
+          color: #484d67;
+          font-weight: 500; }
+      main .prj-container .card .card-body ul li::before {
+        content: "\2022";
+        color: #00ccff;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+        font-size: 2rem; }
     main .prj-container .card .card-links a .btn {
       color: white;
       background-color: #e415b2;
