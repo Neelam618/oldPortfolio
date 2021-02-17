@@ -29,9 +29,9 @@ main .about-container {
   background: #f8f8f8;
   box-shadow: 7px 7px 14px #d3d3d3, -7px -7px 14px #ffffff; }
   main .about-container .title {
-    padding: 30px 20px 0 250px; }
+    padding: 30px 20px 0 280px; }
   main .about-container .desc {
-    padding: 20px 140px 50px 250px;
+    padding: 20px 140px 50px 280px;
     font-size: 20px;
     font-weight: 400;
     text-align: justify;
