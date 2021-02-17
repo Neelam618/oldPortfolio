@@ -7,13 +7,16 @@ body {
     box-sizing: border-box;
 }
 
+.toggleSwitch {
+    margin-bottom: 2em;
+}
 .checkbox {
 	opacity: 0;
 	position: absolute;
 }
 
 .label {
-	background-color: #111;
+	background-color: #f8f8f8;
 	border-radius: 50px;
 	cursor: pointer;
 	display: flex;
@@ -24,6 +27,7 @@ body {
 	height: 26px;
 	width: 50px;
 	transform: scale(1.5);
+    box-shadow: 5px 5px 8px #e7e7e7, -5px -5px 8px #ffffff;
 }
 
 .label .ball {
