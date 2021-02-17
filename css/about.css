@@ -48,7 +48,7 @@ main .about-container {
     main .about-container .social-links a.github {
       position: absolute;
       top: 115px;
-      left: 80px; }
+      left: 84px; }
     main .about-container .social-links a.mail {
       position: absolute;
       top: 90px;
@@ -69,7 +69,7 @@ main .circle-outer {
   width: 180px;
   height: 180px;
   position: absolute;
-  top: 150px;
+  top: 214px;
   left: 40px;
   border-radius: 139px;
   border-radius: 139px;
@@ -101,7 +101,7 @@ main .circle-outer {
   main .about-container .title {
     padding: 88px 115px 0 293px !important; }
   .circle-outer {
-    top: 195px !important; } }
+    top: 275px !important; } }
 
 @media screen and (max-width: 576px) {
   main .about-container .title {
