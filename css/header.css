@@ -1,6 +1,6 @@
 body {
   font-weight: 500 !important;
-  background-color: #f8f8f8 !important;
+  background-color: #fff4f4 !important;
   font-size: 1.2rem !important;
   background-size: cover;
   box-sizing: border-box; }
@@ -60,7 +60,7 @@ body.dark {
 
 .dark .container header .toggleSwitch .label {
   background-color: inherit;
-  box-shadow: inset 5px 5px 6px #0c0c12, inset -5px -5px 6px #322e46; }
+  box-shadow: 5px 5px 8px #0c0c12, -5px -5px 8px #322e46; }
   .dark .container header .toggleSwitch .label .ball {
     background-color: #1f1d2c;
     box-shadow: inset 8px 8px 5px #0c0c12, inset -8px -8px 5px #322e46; }
