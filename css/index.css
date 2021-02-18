@@ -164,3 +164,24 @@ body.dark {
 body.dark .profile-container {
   background: #1f1d2c;
   box-shadow: 13px 13px 20px #0d0c12, -13px -13px 20px #312e46; }
+  body.dark .profile-container .title, body.dark .profile-container p {
+    color: #96c2e0; }
+  body.dark .profile-container .social-links img {
+    background: linear-gradient(145deg, #211f2f, #1c1a28);
+    background: linear-gradient(145deg, #211f2f, #1c1a28);
+    background: linear-gradient(145deg, #211f2f, #1c1a28);
+    box-shadow: 5px 5px 5px #0c0c12, -5px -5px 5px #322e46; }
+  body.dark .profile-container .social-links img:hover {
+    background: inherit;
+    box-shadow: inset 7px 7px 6px #0c0c12, inset -7px -7px 6px #322e46; }
+  body.dark .profile-container .skills-container .skills {
+    background: #1f1d2c;
+    box-shadow: inset 6px 6px 7px #0c0c12, inset -6px -6px 7px #322e46;
+    color: #f938be; }
+
+body.dark .circle-outer {
+  background: #1f1d2c;
+  box-shadow: inset 14px 14px 27px #0c0c12, inset -14px -14px 27px #322e46; }
+  body.dark .circle-outer .circle-inner {
+    background: #1f1d2c;
+    box-shadow: 8px 8px 10px #0c0c12, -8px -8px 10px #322e46; }
