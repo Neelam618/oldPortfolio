@@ -8,7 +8,8 @@ body {
   transition: background 0.2s linear; }
 
 body.dark {
-  background-color: #1f1d2c !important; }
+  background-color: #1f1d2c !important;
+  background-blend-mode: difference; }
 
 .container {
   padding: 0 100px;
@@ -165,7 +166,7 @@ body.dark .profile-container {
   background: #1f1d2c;
   box-shadow: 12px 12px 12px #0c0c12, -12px -12px 12px #322e46; }
   body.dark .profile-container .title, body.dark .profile-container p {
-    color: #96c2e0; }
+    color: #acc3d3; }
   body.dark .profile-container .social-links img {
     background: linear-gradient(145deg, #211f2f, #1c1a28);
     box-shadow: 5px 5px 5px #0c0c12, -5px -5px 5px #322e46; }
@@ -175,7 +176,7 @@ body.dark .profile-container {
   body.dark .profile-container .skills-container .skills {
     background: #1f1d2c;
     box-shadow: inset 6px 6px 7px #0c0c12, inset -6px -6px 7px #322e46;
-    color: #f938be; }
+    color: #fd46c5; }
 
 body.dark .circle-outer {
   background: #1f1d2c;
