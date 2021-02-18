@@ -114,7 +114,7 @@ main .prj-container {
           border: none;
           padding: 0 !important;
           margin-top: 18px;
-          color: #484d67;
+          color: inherit;
           font-weight: 500;
           outline: none; }
       main .prj-container .card .card-body ul li::before {
@@ -153,3 +153,16 @@ main .prj-container {
         left: 8px; }
     .card .card-links a .btn {
       font-size: 1rem !important; } }
+
+body.dark .prj-container .card {
+  background: #1f1d2c;
+  box-shadow: 7px 7px 7px #0c0c12, -7px -7px 7px #322e46; }
+  body.dark .prj-container .card .card-title {
+    color: #acc3d3; }
+  body.dark .prj-container .card .image {
+    background: #1f1d2c;
+    box-shadow: 7px 7px 7px #0c0c12, -7px -7px 7px #322e46; }
+  body.dark .prj-container .card .card-body {
+    color: #85949e; }
+    body.dark .prj-container .card .card-body ul .toggle-txt-btn {
+      color: inherit; }
