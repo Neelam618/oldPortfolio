@@ -118,3 +118,14 @@
     }
 }
 
+body.dark {
+    .profile-container {
+        background: #1f1d2c;
+        box-shadow:  13px 13px 20px #0d0c12,
+                    -13px -13px 20px #312e46;
+        .title, p {
+
+        }
+    }
+}
+

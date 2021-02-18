@@ -4,48 +4,11 @@ body {
   font-size: 1.2rem !important;
   background: url("/img/waves.png") no-repeat;
   background-size: cover;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  transition: background 0.2s linear; }
 
-.toggleSwitch {
-  margin-bottom: 2em; }
-
-.checkbox {
-  opacity: 0;
-  position: absolute; }
-
-.label {
-  background-color: #f8f8f8;
-  border-radius: 50px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 5px;
-  position: relative;
-  height: 26px;
-  width: 50px;
-  transform: scale(1.5);
-  box-shadow: 5px 5px 8px #e7e7e7, -5px -5px 8px #ffffff; }
-
-.label .ball {
-  background-color: #fff;
-  border-radius: 50%;
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  height: 22px;
-  width: 22px;
-  transform: translateX(0px);
-  transition: transform 0.2s linear; }
-
-.checkbox:checked + .label .ball {
-  transform: translateX(24px); }
-
-.fa-moon {
-  color: #f1c40f; }
-
-.fa-sun {
-  color: #f39c12; }
+body.dark {
+  background-color: #1f1d2c !important; }
 
 .container {
   padding: 0 100px;
@@ -62,3 +25,54 @@ body {
       color: #3271e6;
       background-color: #f8f8f8;
       box-shadow: inset 5px 5px 4px #d8d8d8, inset -5px -5px 4px #ffffff; }
+  .container header .toggleSwitch {
+    margin-bottom: 2em; }
+    .container header .toggleSwitch .checkbox {
+      opacity: 0;
+      position: absolute; }
+    .container header .toggleSwitch .label {
+      background-color: #f8f8f8;
+      border-radius: 50px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px;
+      position: relative;
+      height: 26px;
+      width: 50px;
+      transform: scale(1.5);
+      box-shadow: 5px 5px 8px #e7e7e7, -5px -5px 8px #ffffff; }
+      .container header .toggleSwitch .label .fa-moon {
+        color: #f1c40f; }
+      .container header .toggleSwitch .label .fa-sun {
+        color: #f39c12; }
+      .container header .toggleSwitch .label .ball {
+        background-color: #fff;
+        box-shadow: inset 5px 5px 10px #c4c4c4, inset -5px -5px 10px #ffffff;
+        border-radius: 50%;
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        height: 22px;
+        width: 22px;
+        transform: translateX(0px);
+        transition: transform 0.2s linear; }
+    .container header .toggleSwitch .checkbox:checked + .label .ball {
+      transform: translateX(24px); }
+
+.dark .container header .toggleSwitch .label {
+  background-color: inherit;
+  box-shadow: inset 5px 5px 6px #0c0c12, inset -5px -5px 6px #322e46; }
+  .dark .container header .toggleSwitch .label .ball {
+    background-color: #1f1d2c;
+    box-shadow: inset 8px 8px 5px #0c0c12, inset -8px -8px 5px #322e46; }
+
+.dark .container header nav ul.nav li.nav-item a.nav-link {
+  background: inherit;
+  box-shadow: 6px 6px 8px #0d0c12, -6px -6px 8px #312e46; }
+
+.dark .container header nav ul.nav li.nav-item a.nav-link:hover, .dark .container header nav ul.nav li.nav-item .nav-link.active {
+  color: #3271e6;
+  background-color: inherit;
+  box-shadow: inset 6px 6px 8px #0d0c12, inset -6px -6px 8px #312e46; }
