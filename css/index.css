@@ -71,10 +71,11 @@ body.dark {
 
 .dark .container header nav ul.nav li.nav-item a.nav-link {
   background: inherit;
-  box-shadow: 6px 6px 8px #0d0c12, -6px -6px 8px #312e46; }
+  box-shadow: 6px 6px 8px #0d0c12, -6px -6px 8px #312e46;
+  color: #9998ff; }
 
 .dark .container header nav ul.nav li.nav-item a.nav-link:hover, .dark .container header nav ul.nav li.nav-item .nav-link.active {
-  color: #3271e6;
+  color: #9998ff;
   background-color: inherit;
   box-shadow: inset 6px 6px 8px #0d0c12, inset -6px -6px 8px #312e46; }
 
