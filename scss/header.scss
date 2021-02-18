@@ -5,7 +5,6 @@ body {
     background: url("/img/waves.png") no-repeat;
     background-size: cover;
     box-sizing: border-box;
-    transition: background 0.2s linear;
 }
 body.dark {
     background-color: #1f1d2c!important;
@@ -15,7 +14,6 @@ body.dark {
 .container{
     padding: 0 100px;
     position: relative;
-
     header {
         nav {
             ul.nav {
@@ -33,7 +31,7 @@ body.dark {
                         color: rgb(50, 113, 230);
                         background-color: #f8f8f8;
                         box-shadow: inset 5px 5px 4px #d8d8d8,
-                                inset -5px -5px 4px #ffffff;
+                                    inset -5px -5px 4px #ffffff;
                     }
                 }
             }
@@ -73,7 +71,6 @@ body.dark {
                     left: 2px;
                     height: 22px;
                     width: 22px;
-                    transform: translateX(0px);
                     transition: transform 0.2s linear;
                 }
             }
@@ -90,28 +87,26 @@ body.dark {
             .label {
                 background-color: inherit;
                 box-shadow: inset 5px 5px 6px #0c0c12,
-                inset -5px -5px 6px #322e46;
+                            inset -5px -5px 6px #322e46;
                 .ball {
                     background-color: #1f1d2c;
                     box-shadow: inset 8px 8px 5px #0c0c12,
-            inset -8px -8px 5px #322e46;
+                                inset -8px -8px 5px #322e46;
                 }
             }
         }
-
-
         nav {
             ul.nav {
                 li.nav-item {
                     a.nav-link {
-                        background: inherit;
+                        background: #1f1d2c;
                         box-shadow:  6px 6px 8px #0d0c12,
                                     -6px -6px 8px #312e46;
                         color: #9998ff;
                     }
                     a.nav-link:hover, .nav-link.active {
                         color: #9998ff;
-                        background-color: inherit;
+                        background-color: #1f1d2c;
                         box-shadow: inset 6px 6px 8px #0d0c12,
                                     inset -6px -6px 8px #312e46;
                     }

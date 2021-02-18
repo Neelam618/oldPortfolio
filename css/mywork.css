@@ -4,8 +4,7 @@ body {
   font-size: 1.2rem !important;
   background: url("/img/waves.png") no-repeat;
   background-size: cover;
-  box-sizing: border-box;
-  transition: background 0.2s linear; }
+  box-sizing: border-box; }
 
 body.dark {
   background-color: #1f1d2c !important;
@@ -57,7 +56,6 @@ body.dark {
         left: 2px;
         height: 22px;
         width: 22px;
-        transform: translateX(0px);
         transition: transform 0.2s linear; }
     .container header .toggleSwitch .checkbox:checked + .label .ball {
       transform: translateX(24px); }
@@ -70,13 +68,13 @@ body.dark {
     box-shadow: inset 8px 8px 5px #0c0c12, inset -8px -8px 5px #322e46; }
 
 .dark .container header nav ul.nav li.nav-item a.nav-link {
-  background: inherit;
+  background: #1f1d2c;
   box-shadow: 6px 6px 8px #0d0c12, -6px -6px 8px #312e46;
   color: #9998ff; }
 
 .dark .container header nav ul.nav li.nav-item a.nav-link:hover, .dark .container header nav ul.nav li.nav-item .nav-link.active {
   color: #9998ff;
-  background-color: inherit;
+  background-color: #1f1d2c;
   box-shadow: inset 6px 6px 8px #0d0c12, inset -6px -6px 8px #312e46; }
 
 html, body {
