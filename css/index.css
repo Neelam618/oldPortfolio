@@ -82,7 +82,7 @@ body.dark {
   margin: 10em 0;
   padding: 15px;
   background: #f8f8f8;
-  box-shadow: 7px 7px 14px #d3d3d3, -7px -7px 14px #ffffff; }
+  box-shadow: 12px 12px 12px #d3d3d3, -12px -12px 12px #ffffff; }
   .container main .profile-container .title {
     padding: 30px 20px 0 250px; }
     .container main .profile-container .title p {
@@ -163,12 +163,10 @@ body.dark {
 
 body.dark .profile-container {
   background: #1f1d2c;
-  box-shadow: 13px 13px 20px #0d0c12, -13px -13px 20px #312e46; }
+  box-shadow: 12px 12px 12px #0c0c12, -12px -12px 12px #322e46; }
   body.dark .profile-container .title, body.dark .profile-container p {
     color: #96c2e0; }
   body.dark .profile-container .social-links img {
-    background: linear-gradient(145deg, #211f2f, #1c1a28);
-    background: linear-gradient(145deg, #211f2f, #1c1a28);
     background: linear-gradient(145deg, #211f2f, #1c1a28);
     box-shadow: 5px 5px 5px #0c0c12, -5px -5px 5px #322e46; }
   body.dark .profile-container .social-links img:hover {
