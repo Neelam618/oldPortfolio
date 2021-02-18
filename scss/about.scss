@@ -11,8 +11,10 @@ main {
                     -12px -12px 12px #ffffff;
         .title {
             padding: 30px 20px 0 280px;
+            h1 {
+                font-weight: 700;
+            }
         }
-
         .desc {
             padding: 20px 140px 50px 280px;
             font-size: 20px;
@@ -24,28 +26,23 @@ main {
                 color: #44454a;
             }
         }
-
         .social-links {
             padding: 0 20px 0 250px;
-
             a.linkedin {
                 position: absolute;
                 top: 90px;
                 left: 3px;
             }
-
             a.github {
                 position: absolute;
                 top: 115px;
                 left: 84px;
             }
-
             a.mail {
                 position: absolute;
                 top: 90px;
                 left: 160px;
             }
-
             img {
                 border-radius: 50%;
                 width: 50px;
@@ -55,7 +52,6 @@ main {
                 box-shadow:  5px 5px 6px #d0d0d0,
                             -5px -5px 6px #ffffff;
             }
-
             img:hover {
                 background: #f8f8f8;
                 box-shadow: inset 5px 5px 6px #d0d0d0,
@@ -63,7 +59,6 @@ main {
             }
         }
     }
-
     .circle-outer{
         border-radius: 50%;
         width: 180px;
@@ -78,7 +73,6 @@ main {
         background: #eef2f5;
         box-shadow: inset 5px 5px 6px #c3c6c9,
                     inset -5px -5px 6px #ffffff;
-        
         .circle-inner {
             width: 150px;
             height: 150px;

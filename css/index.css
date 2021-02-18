@@ -83,6 +83,8 @@ body.dark {
   box-shadow: 12px 12px 12px #d3d3d3, -12px -12px 12px #ffffff; }
   .container main .profile-container .title {
     padding: 30px 20px 0 250px; }
+    .container main .profile-container .title h1 {
+      font-weight: 700; }
     .container main .profile-container .title p {
       font-weight: 400; }
   .container main .profile-container .social-links {
