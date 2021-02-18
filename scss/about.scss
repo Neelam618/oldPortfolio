@@ -150,3 +150,40 @@ main {
         }
     } 
 }
+body.dark {
+    .about-container {
+        background: #1f1d2c;
+        box-shadow:  12px 12px 12px #0c0c12,
+                    -12px -12px 12px #322e46;
+        .title {
+            color: #acc3d3;
+        }
+        .desc {
+            p {
+                color: #85949e;
+            }
+        }
+        .social-links {
+            img {
+                background: linear-gradient(145deg, #211f2f, #1c1a28);
+                box-shadow:  5px 5px 5px #0c0c12,
+                                -5px -5px 5px #322e46;
+            }
+            img:hover {
+                background: inherit;
+                box-shadow: inset 7px 7px 6px #0c0c12,
+                            inset -7px -7px 6px #322e46
+            }
+        }
+    }
+    .circle-outer {
+        background: #1f1d2c;
+        box-shadow: inset 14px 14px 27px #0c0c12,
+                    inset -14px -14px 27px #322e46;
+        .circle-inner {
+            background: #1f1d2c;
+            box-shadow:  8px 8px 10px #0c0c12,
+                        -8px -8px 10px #322e46;
+        }
+    }
+}
