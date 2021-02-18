@@ -6,8 +6,7 @@ body {
   box-sizing: border-box; }
 
 body.dark {
-  background-color: #1f1d2c !important;
-  background-blend-mode: difference; }
+  background-color: #484654 !important; }
 
 .container {
   padding: 0 100px;
@@ -78,10 +77,6 @@ body.dark {
 
 html, body {
   overflow-x: hidden; }
-
-body {
-  background: url("/img/waves.png") repeat-y;
-  background-size: contain; }
 
 main .prj-container {
   padding: 15px; }
