@@ -59,7 +59,7 @@ body.dark {
       transform: translateX(24px); }
 
 .dark .container header .toggleSwitch .label {
-  background-color: inherit;
+  background-color: #1f1d2c;
   box-shadow: 5px 5px 8px #0c0c12, -5px -5px 8px #322e46; }
   .dark .container header .toggleSwitch .label .ball {
     background-color: #1f1d2c;
