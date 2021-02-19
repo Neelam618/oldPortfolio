@@ -157,7 +157,8 @@ body.dark {
 
 @media screen and (max-width: 524px) {
   .circle-outer {
-    left: 10px !important; }
+    left: 10px !important;
+    transform: scale(0.8); }
   .title {
     padding: 10px 0px 0 42% !important; } }
 

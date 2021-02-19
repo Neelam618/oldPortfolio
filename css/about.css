@@ -165,7 +165,8 @@ main .circle-outer {
   main .about-container .desc {
     font-size: inherit; }
   .circle-outer {
-    left: 10px !important; } }
+    left: 10px !important;
+    transform: scale(0.8); } }
 
 @media screen and (max-width: 518px) {
   main .about-container .title {
