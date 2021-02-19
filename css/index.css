@@ -148,12 +148,14 @@ body.dark {
     margin-bottom: 0; } }
 
 @media screen and (max-width: 767px) {
+  .profile-container {
+    margin-top: 6em !important; }
   .title {
     padding: 30px 20px 0 220px !important; }
   .social-links {
     padding: 15px 10px 0 10px !important; }
   .circle-outer {
-    top: 275px !important; } }
+    top: 190px !important; } }
 
 @media screen and (max-width: 576px) {
   .circle-outer {
