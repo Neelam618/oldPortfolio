@@ -2,8 +2,8 @@ body {
   font-weight: 500 !important;
   background-color: #fff4f4 !important;
   font-size: 1.2rem !important;
-  background-size: cover;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background-image: linear-gradient(to top right, #fff0f2 50%, #f3e8ff 50%); }
 
 body.dark {
   background-color: #484654 !important; }
@@ -75,76 +75,77 @@ body.dark {
   background-color: #1f1d2c;
   box-shadow: inset 6px 6px 8px #0d0c12, inset -6px -6px 8px #312e46; }
 
-main .about-container {
-  position: relative;
-  border-radius: 16px;
-  margin: 5em 0;
-  padding: 15px;
-  background: #f8f8f8;
-  box-shadow: 12px 12px 12px #d3d3d3, -12px -12px 12px #ffffff; }
-  main .about-container .title {
-    padding: 30px 20px 0 280px; }
-    main .about-container .title h1 {
-      font-weight: 700; }
-  main .about-container .desc {
-    padding: 20px 140px 50px 280px;
-    font-size: 20px;
-    font-weight: 400;
-    text-align: justify;
-    line-height: 1.8; }
-    main .about-container .desc p {
-      color: #44454a; }
-  main .about-container .social-links {
-    padding: 0 20px 0 250px; }
-    main .about-container .social-links a.linkedin {
-      position: absolute;
-      top: 86px;
-      left: 3px; }
-    main .about-container .social-links a.github {
-      position: absolute;
-      top: 115px;
-      left: 82px; }
-    main .about-container .social-links a.mail {
-      position: absolute;
-      top: 90px;
-      left: 160px; }
-    main .about-container .social-links img {
-      border-radius: 50%;
-      width: 50px;
-      padding: 10px;
-      margin: 8px;
-      background: linear-gradient(145deg, #ffffff, #dfdfdf);
-      box-shadow: 5px 5px 6px #d0d0d0, -5px -5px 6px #ffffff; }
-    main .about-container .social-links img:hover {
-      background: #f8f8f8;
-      box-shadow: inset 5px 5px 6px #d0d0d0, inset -5px -5px 6px #ffffff; }
-
-main .circle-outer {
-  border-radius: 50%;
-  width: 180px;
-  height: 180px;
-  position: absolute;
-  top: 115px;
-  left: 40px;
-  border-radius: 139px;
-  border-radius: 139px;
-  border-radius: 139px;
-  border-radius: 139px;
-  background: #eef2f5;
-  box-shadow: inset 5px 5px 6px #c3c6c9, inset -5px -5px 6px #ffffff; }
-  main .circle-outer .circle-inner {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+main {
+  min-height: 76vh; }
+  main .about-container {
     position: relative;
-    top: 16px;
-    left: 16px;
+    border-radius: 16px;
+    margin-top: 5em;
+    padding: 15px;
+    background: #f8f8f8;
+    box-shadow: 12px 12px 12px #d3d3d3, -12px -12px 12px #ffffff; }
+    main .about-container .title {
+      padding: 30px 20px 0 280px; }
+      main .about-container .title h1 {
+        font-weight: 700; }
+    main .about-container .desc {
+      padding: 20px 140px 50px 280px;
+      font-size: 20px;
+      font-weight: 400;
+      text-align: justify;
+      line-height: 1.8; }
+      main .about-container .desc p {
+        color: #44454a; }
+    main .about-container .social-links {
+      padding: 0 20px 0 250px; }
+      main .about-container .social-links a.linkedin {
+        position: absolute;
+        top: 86px;
+        left: 3px; }
+      main .about-container .social-links a.github {
+        position: absolute;
+        top: 115px;
+        left: 82px; }
+      main .about-container .social-links a.mail {
+        position: absolute;
+        top: 90px;
+        left: 160px; }
+      main .about-container .social-links img {
+        border-radius: 50%;
+        width: 50px;
+        padding: 10px;
+        margin: 8px;
+        background: linear-gradient(145deg, #ffffff, #dfdfdf);
+        box-shadow: 5px 5px 6px #d0d0d0, -5px -5px 6px #ffffff; }
+      main .about-container .social-links img:hover {
+        background: #f8f8f8;
+        box-shadow: inset 5px 5px 6px #d0d0d0, inset -5px -5px 6px #ffffff; }
+  main .circle-outer {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 115px;
+    left: 40px;
+    border-radius: 139px;
+    border-radius: 139px;
+    border-radius: 139px;
+    border-radius: 139px;
     background: #eef2f5;
-    box-shadow: 5px 5px 6px #c3c6c9, -5px -5px 6px #ffffff; }
-    main .circle-outer .circle-inner img {
-      width: inherit;
-      height: inherit;
-      border-radius: 50%; }
+    box-shadow: inset 5px 5px 6px #c3c6c9, inset -5px -5px 6px #ffffff; }
+    main .circle-outer .circle-inner {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      position: relative;
+      top: 16px;
+      left: 16px;
+      background: #eef2f5;
+      box-shadow: 5px 5px 6px #c3c6c9, -5px -5px 6px #ffffff; }
+      main .circle-outer .circle-inner img {
+        width: inherit;
+        height: inherit;
+        border-radius: 50%; }
 
 @media screen and (max-width: 992px) {
   main .about-container .title {

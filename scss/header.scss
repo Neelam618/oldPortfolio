@@ -2,13 +2,11 @@ body {
     font-weight: 500!important;
     background-color: #fff4f4!important;
     font-size: 1.2rem!important;
-    // background: url("/img/waves.png") no-repeat;
-    background-size: cover;
     box-sizing: border-box;
+    background-image: linear-gradient(to top right, #fff0f2 50%, #f3e8ff 50%);
 }
 body.dark {
     background-color: #484654!important;
-    // background-blend-mode: difference;
 }
 
 .container{

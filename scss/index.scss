@@ -2,10 +2,11 @@
 
 .container {
 
-    main { 
+    main {
+        min-height: 65vh; 
         .profile-container{
             border-radius: 16px;
-            margin: 10em 0;
+            margin-top: 10em;
             padding: 15px;
             background: #f8f8f8;
             box-shadow:  12px 12px 12px #d3d3d3,
@@ -102,17 +103,20 @@
     }
 }
 @media screen and (max-width: 767px) {
-    .profile-container {
-        margin-top: 6em!important;
-    }
-    .title {
-        padding: 30px 20px 0 220px!important;
-    }
-    .social-links {
-        padding: 15px 10px 0 10px!important;
-    }
-    .circle-outer {
-        top: 190px!important;
+    main {
+        min-height: 67vh!important; 
+        .profile-container {
+            margin-top: 6em!important;
+        }
+        .title {
+            padding: 30px 20px 0 220px!important;
+        }
+        .social-links {
+            padding: 15px 10px 0 10px!important;
+        }
+        .circle-outer {
+            top: 190px!important;
+        }
     }
 }
 @media screen and (max-width: 576px) {

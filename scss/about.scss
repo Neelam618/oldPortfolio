@@ -1,10 +1,11 @@
 @import "header";
 
 main {
+    min-height: 76vh;
     .about-container{
         position: relative;
         border-radius: 16px;
-        margin: 5em 0;
+        margin-top: 5em;
         padding: 15px;
         background: #f8f8f8;
         box-shadow:  12px 12px 12px #d3d3d3,
