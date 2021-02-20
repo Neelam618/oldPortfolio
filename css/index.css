@@ -79,7 +79,7 @@ body.dark {
   min-height: 65vh; }
   .container main .profile-container {
     border-radius: 16px;
-    margin-top: 10em;
+    margin-top: 8em;
     padding: 15px;
     background: #f8f8f8;
     box-shadow: 12px 12px 12px #d3d3d3, -12px -12px 12px #ffffff; }
@@ -152,7 +152,7 @@ body.dark {
   main {
     min-height: 67vh !important; }
     main .profile-container {
-      margin-top: 6em !important; }
+      margin-top: 3em !important; }
     main .title {
       padding: 30px 20px 0 220px !important; }
     main .social-links {
