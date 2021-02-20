@@ -76,7 +76,7 @@ body.dark {
   box-shadow: inset 6px 6px 8px #0d0c12, inset -6px -6px 8px #312e46; }
 
 .container main {
-  min-height: 68vh; }
+  min-height: 68.6vh; }
   .container main .profile-container {
     border-radius: 16px;
     margin-top: 8em;
@@ -150,7 +150,7 @@ body.dark {
 
 @media screen and (max-width: 767px) {
   main {
-    min-height: 72vh !important; }
+    min-height: 72.6vh !important; }
     main .profile-container {
       margin-top: 3em !important; }
     main .social-links {
