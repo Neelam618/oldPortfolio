@@ -3,7 +3,7 @@
 .container {
 
     main {
-        min-height: 65vh; 
+        min-height: 68vh; 
         .profile-container{
             border-radius: 16px;
             margin-top: 8em;
@@ -63,7 +63,7 @@
             width: 180px;
             height: 180px;
             position: absolute;
-            top: 214px;
+            top: 150px;
             left: 40px;
             border-radius: 139px;
             border-radius: 139px;
@@ -104,7 +104,7 @@
 }
 @media screen and (max-width: 767px) {
     main {
-        min-height: 67vh!important; 
+        min-height: 72vh!important; 
         .profile-container {
             margin-top: 3em!important;
         }
@@ -115,7 +115,7 @@
             padding: 15px 10px 0 10px!important;
         }
         .circle-outer {
-            top: 190px!important;
+            top: 150px!important;
         }
     }
 }

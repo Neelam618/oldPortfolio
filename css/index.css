@@ -18,13 +18,11 @@ body.dark {
       padding: 0.5rem 1.5rem;
       border-radius: 65px;
       background-color: #f8f8f8;
-      box-shadow: 5px 5px 8px #e7e7e7,
- -5px -5px 8px #ffffff; }
+      box-shadow: 5px 5px 8px #e7e7e7, -5px -5px 8px #ffffff; }
     .container header nav ul.nav li.nav-item a.nav-link:hover, .container header nav ul.nav li.nav-item .nav-link.active {
       color: #3271e6;
       background-color: #f8f8f8;
-      box-shadow: inset 5px 5px 4px #d8d8d8,
- inset -5px -5px 4px #ffffff; }
+      box-shadow: inset 5px 5px 4px #d8d8d8, inset -5px -5px 4px #ffffff; }
   .container header .toggleSwitch {
     margin-bottom: 2em; }
     .container header .toggleSwitch .checkbox {
@@ -49,8 +47,7 @@ body.dark {
         color: #f39c12; }
       .container header .toggleSwitch .label .ball {
         background-color: #fff;
-        box-shadow: inset 5px 5px 10px #c4c4c4,
- inset -5px -5px 10px #ffffff;
+        box-shadow: inset 5px 5px 10px #c4c4c4, inset -5px -5px 10px #ffffff;
         border-radius: 50%;
         position: absolute;
         top: 2px;
@@ -66,30 +63,26 @@ body.dark {
   box-shadow: 5px 5px 8px #0c0c12, -5px -5px 8px #322e46; }
   .dark .container header .toggleSwitch .label .ball {
     background-color: #1f1d2c;
-    box-shadow: inset 8px 8px 5px #0c0c12,
- inset -8px -8px 5px #322e46; }
+    box-shadow: inset 8px 8px 5px #0c0c12, inset -8px -8px 5px #322e46; }
 
 .dark .container header nav ul.nav li.nav-item a.nav-link {
   background: #1f1d2c;
-  box-shadow: 6px 6px 8px #0d0c12,
- -6px -6px 8px #312e46;
+  box-shadow: 6px 6px 8px #0d0c12, -6px -6px 8px #312e46;
   color: #9998ff; }
 
 .dark .container header nav ul.nav li.nav-item a.nav-link:hover, .dark .container header nav ul.nav li.nav-item .nav-link.active {
   color: #9998ff;
   background-color: #1f1d2c;
-  box-shadow: inset 6px 6px 8px #0d0c12,
- inset -6px -6px 8px #312e46; }
+  box-shadow: inset 6px 6px 8px #0d0c12, inset -6px -6px 8px #312e46; }
 
 .container main {
-  min-height: 65vh; }
+  min-height: 68vh; }
   .container main .profile-container {
     border-radius: 16px;
     margin-top: 8em;
     padding: 15px;
     background: #f8f8f8;
-    box-shadow: 12px 12px 12px #d3d3d3,
- -12px -12px 12px #ffffff; }
+    box-shadow: 12px 12px 12px #d3d3d3, -12px -12px 12px #ffffff; }
     .container main .profile-container .title {
       padding: 30px 20px 0 250px; }
       .container main .profile-container .title h1 {
@@ -104,12 +97,10 @@ body.dark {
         padding: 10px;
         margin: 8px;
         background: linear-gradient(145deg, #ffffff, #dfdfdf);
-        box-shadow: 5px 5px 6px #d0d0d0,
- -5px -5px 6px #ffffff; }
+        box-shadow: 5px 5px 6px #d0d0d0, -5px -5px 6px #ffffff; }
       .container main .profile-container .social-links img:hover {
         background: #f8f8f8;
-        box-shadow: inset 5px 5px 6px #d0d0d0,
- inset -5px -5px 6px #ffffff; }
+        box-shadow: inset 5px 5px 6px #d0d0d0, inset -5px -5px 6px #ffffff; }
     .container main .profile-container .skills-container {
       padding: 20px 20px 30px 250px;
       margin: 2em 0; }
@@ -122,22 +113,20 @@ body.dark {
         border-radius: 30px;
         border-radius: 24px;
         background: #f8f8f8;
-        box-shadow: inset 5px 5px 4px #d8d8d8,
- inset -5px -5px 4px #ffffff; }
+        box-shadow: inset 5px 5px 4px #d8d8d8, inset -5px -5px 4px #ffffff; }
   .container main .circle-outer {
     border-radius: 50%;
     width: 180px;
     height: 180px;
     position: absolute;
-    top: 214px;
+    top: 150px;
     left: 40px;
     border-radius: 139px;
     border-radius: 139px;
     border-radius: 139px;
     border-radius: 139px;
     background: #eef2f5;
-    box-shadow: inset 5px 5px 6px #c3c6c9,
- inset -5px -5px 6px #ffffff; }
+    box-shadow: inset 5px 5px 6px #c3c6c9, inset -5px -5px 6px #ffffff; }
     .container main .circle-outer .circle-inner {
       width: 150px;
       height: 150px;
@@ -146,8 +135,7 @@ body.dark {
       top: 16px;
       left: 16px;
       background: #eef2f5;
-      box-shadow: 5px 5px 6px #c3c6c9,
- -5px -5px 6px #ffffff; }
+      box-shadow: 5px 5px 6px #c3c6c9, -5px -5px 6px #ffffff; }
       .container main .circle-outer .circle-inner img {
         width: inherit;
         height: inherit;
@@ -162,7 +150,7 @@ body.dark {
 
 @media screen and (max-width: 767px) {
   main {
-    min-height: 67vh !important; }
+    min-height: 72vh !important; }
     main .profile-container {
       margin-top: 3em !important; }
     main .title {
@@ -170,7 +158,7 @@ body.dark {
     main .social-links {
       padding: 15px 10px 0 10px !important; }
     main .circle-outer {
-      top: 190px !important; } }
+      top: 150px !important; } }
 
 @media screen and (max-width: 576px) {
   .circle-outer {
@@ -183,29 +171,23 @@ body.dark {
 
 body.dark .profile-container {
   background: #1f1d2c;
-  box-shadow: 12px 12px 12px #0c0c12,
- -12px -12px 12px #322e46; }
+  box-shadow: 12px 12px 12px #0c0c12, -12px -12px 12px #322e46; }
   body.dark .profile-container .title, body.dark .profile-container p {
     color: #acc3d3; }
   body.dark .profile-container .social-links img {
     background: linear-gradient(145deg, #211f2f, #1c1a28);
-    box-shadow: 5px 5px 5px #0c0c12,
- -5px -5px 5px #322e46; }
+    box-shadow: 5px 5px 5px #0c0c12, -5px -5px 5px #322e46; }
   body.dark .profile-container .social-links img:hover {
     background: inherit;
-    box-shadow: inset 7px 7px 6px #0c0c12,
- inset -7px -7px 6px #322e46; }
+    box-shadow: inset 7px 7px 6px #0c0c12, inset -7px -7px 6px #322e46; }
   body.dark .profile-container .skills-container .skills {
     background: #1f1d2c;
-    box-shadow: inset 6px 6px 7px #0c0c12,
- inset -6px -6px 7px #322e46;
+    box-shadow: inset 6px 6px 7px #0c0c12, inset -6px -6px 7px #322e46;
     color: #fd46c5; }
 
 body.dark .circle-outer {
   background: #1f1d2c;
-  box-shadow: inset 14px 14px 27px #0c0c12,
- inset -14px -14px 27px #322e46; }
+  box-shadow: inset 14px 14px 27px #0c0c12, inset -14px -14px 27px #322e46; }
   body.dark .circle-outer .circle-inner {
     background: #1f1d2c;
-    box-shadow: 8px 8px 10px #0c0c12,
- -8px -8px 10px #322e46; }
+    box-shadow: 8px 8px 10px #0c0c12, -8px -8px 10px #322e46; }
