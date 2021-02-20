@@ -1,11 +1,12 @@
 @import "header";
 
 main {
-    min-height: 76vh;
+    min-height: 77.5vh;
     .about-container{
         position: relative;
         border-radius: 16px;
-        margin-top: 5em;
+        margin-top: 4em;
+        margin-bottom: 4em;
         padding: 15px;
         background: #f8f8f8;
         box-shadow:  12px 12px 12px #d3d3d3,
@@ -64,7 +65,7 @@ main {
         width: 180px;
         height: 180px;
         position: absolute;
-        top: 115px;
+        top: 95px;
         left: 40px;
         border-radius: 139px;
         border-radius: 139px;
@@ -107,6 +108,7 @@ main {
 @media screen and (max-width: 767px) {
     .about-container {
         margin-top: 6em !important;
+        margin-bottom: 1.5em;
     }
     main {
         .about-container {

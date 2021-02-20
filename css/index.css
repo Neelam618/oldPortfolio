@@ -153,8 +153,6 @@ body.dark {
     min-height: 72vh !important; }
     main .profile-container {
       margin-top: 3em !important; }
-    main .title {
-      padding: 30px 20px 0 220px; }
     main .social-links {
       padding: 15px 10px 0 10px !important; }
     main .circle-outer {
@@ -165,7 +163,7 @@ body.dark {
     left: 10px !important;
     transform: scale(0.8); }
   .title {
-    padding: 30px 0px 0 40% !important; }
+    padding: 30px 8px 0 40% !important; }
     .title p {
       font-size: 1.1rem; } }
 
