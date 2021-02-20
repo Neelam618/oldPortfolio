@@ -1,12 +1,12 @@
 body {
   font-weight: 500 !important;
   background-color: #fff4f4 !important;
-  font-size: 1.2rem !important;
+  font-size: 1.1rem !important;
   box-sizing: border-box;
   background-image: linear-gradient(to top right, #fff0f2 50%, #f3e8ff 50%); }
 
 body.dark {
-  background-image: linear-gradient(to top right, #4a1349 50%, #4d3269 50%); }
+  background-image: linear-gradient(to top right, #611b5f 50%, #4d3269 50%); }
 
 .container {
   padding: 0 100px;
@@ -38,8 +38,8 @@ body.dark {
       padding: 5px;
       position: relative;
       height: 26px;
-      width: 50px;
-      transform: scale(1.3);
+      width: 60px;
+      transform: scale(1.1);
       box-shadow: 5px 5px 8px #e7e7e7, -5px -5px 8px #ffffff; }
       .container header .toggleSwitch .label .fa-moon {
         color: #f1c40f; }
@@ -56,7 +56,7 @@ body.dark {
         width: 22px;
         transition: transform 0.2s linear; }
     .container header .toggleSwitch .checkbox:checked + .label .ball {
-      transform: translateX(24px); }
+      transform: translateX(32px); }
 
 .dark .container header .toggleSwitch .label {
   background-color: #1f1d2c;
