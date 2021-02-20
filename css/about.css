@@ -163,7 +163,7 @@ main {
   .circle-outer {
     top: 190px !important; } }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
   main .about-container .title {
     padding: 50px 20px 0px 250px !important; }
   main .about-container .desc {
