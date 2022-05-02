@@ -75,7 +75,8 @@ body.dark {
   background-color: #1f1d2c;
   box-shadow: inset 6px 6px 8px #0d0c12, inset -6px -6px 8px #312e46; }
 
-html, body {
+html,
+body {
   overflow-x: hidden; }
 
 main .prj-container {
@@ -128,6 +129,8 @@ main .prj-container {
       main .prj-container .card .card-links a .btn .card-icon {
         background-color: inherit;
         padding-right: 10px; }
+      main .prj-container .card .card-links a .btn.viewCodeBtn {
+        background-color: #484d67; }
 
 @media screen and (max-width: 576px) {
   main .prj-container {
