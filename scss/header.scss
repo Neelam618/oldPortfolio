@@ -1,44 +1,53 @@
 body {
-    font-weight: 500!important;
-    background-color: #fff4f4!important;
-    font-size: 1.1rem!important;
+    font-weight: 500 !important;
+    background-color: #fff4f4 !important;
+    font-size: 18px !important;
     box-sizing: border-box;
     background-image: linear-gradient(to top right, #fff0f2 50%, #f3e8ff 50%);
 }
+
 body.dark {
     background-image: linear-gradient(to top right, #611b5f 50%, #4d3269 50%);
 }
-.container{
+
+.container {
     padding: 0 100px;
     position: relative;
+
     header {
         nav {
             ul.nav {
                 li.nav-item {
                     margin-bottom: 15px;
+
                     a.nav-link {
                         margin-right: 20px;
                         padding: 0.5rem 1.5rem;
                         border-radius: 65px;
                         background-color: #f8f8f8;
-                        box-shadow:  5px 5px 8px #e7e7e7,
-                                     -5px -5px 8px #ffffff;
+                        box-shadow: 5px 5px 8px #e7e7e7,
+                            -5px -5px 8px #ffffff;
                     }
-                    a.nav-link:hover, .nav-link.active {
+
+                    a.nav-link:hover,
+                    .nav-link.active {
                         color: rgb(50, 113, 230);
                         background-color: #f8f8f8;
                         box-shadow: inset 5px 5px 4px #d8d8d8,
-                                    inset -5px -5px 4px #ffffff;
+                            inset -5px -5px 4px #ffffff;
                     }
                 }
             }
         }
+
         .toggleSwitch {
             margin-bottom: 2em;
+
             .checkbox {
                 opacity: 0;
                 position: absolute;
             }
+
             .label {
                 background-color: #f8f8f8;
                 border-radius: 50px;
@@ -52,16 +61,19 @@ body.dark {
                 width: 60px;
                 transform: scale(1.1);
                 box-shadow: 5px 5px 8px #e7e7e7, -5px -5px 8px #ffffff;
+
                 .fa-moon {
                     color: #f1c40f;
                 }
+
                 .fa-sun {
                     color: #f39c12;
                 }
+
                 .ball {
                     background-color: #fff;
                     box-shadow: inset 5px 5px 10px #c4c4c4,
-                                inset -5px -5px 10px #ffffff;
+                        inset -5px -5px 10px #ffffff;
                     border-radius: 50%;
                     position: absolute;
                     top: 2px;
@@ -71,7 +83,8 @@ body.dark {
                     transition: transform 0.2s linear;
                 }
             }
-            .checkbox:checked + .label .ball {
+
+            .checkbox:checked+.label .ball {
                 transform: translateX(32px);
             }
         }
@@ -84,27 +97,31 @@ body.dark {
             .label {
                 background-color: #1f1d2c;
                 box-shadow: 5px 5px 8px #0c0c12, -5px -5px 8px #322e46;
+
                 .ball {
                     background-color: #1f1d2c;
                     box-shadow: inset 8px 8px 5px #0c0c12,
-                                inset -8px -8px 5px #322e46;
+                        inset -8px -8px 5px #322e46;
                 }
             }
         }
+
         nav {
             ul.nav {
                 li.nav-item {
                     a.nav-link {
                         background: #1f1d2c;
-                        box-shadow:  6px 6px 8px #0d0c12,
-                                    -6px -6px 8px #312e46;
+                        box-shadow: 6px 6px 8px #0d0c12,
+                            -6px -6px 8px #312e46;
                         color: #9998ff;
                     }
-                    a.nav-link:hover, .nav-link.active {
+
+                    a.nav-link:hover,
+                    .nav-link.active {
                         color: #9998ff;
                         background-color: #1f1d2c;
                         box-shadow: inset 6px 6px 8px #0d0c12,
-                                    inset -6px -6px 8px #312e46;
+                            inset -6px -6px 8px #312e46;
                     }
                 }
             }

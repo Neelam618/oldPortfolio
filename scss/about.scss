@@ -2,65 +2,76 @@
 
 main {
     min-height: 77.8vh;
-    .about-container{
+
+    .about-container {
         position: relative;
         border-radius: 16px;
         margin-top: 4em;
         margin-bottom: 4em;
         padding: 15px;
         background: #f8f8f8;
-        box-shadow:  12px 12px 12px #d3d3d3,
-                    -12px -12px 12px #ffffff;
+        box-shadow: 12px 12px 12px #d3d3d3,
+            -12px -12px 12px #ffffff;
+
         .title {
             padding: 30px 20px 0 280px;
+
             h1 {
                 font-weight: 700;
             }
         }
+
         .desc {
             padding: 20px 140px 50px 280px;
-            font-size: 20px;
             font-weight: 400;
             text-align: justify;
             line-height: 1.8;
+
             p {
                 color: #44454a;
             }
         }
+
         .social-links {
             padding: 0 20px 0 250px;
+
             a.linkedin {
                 position: absolute;
                 top: 86px;
                 left: 3px;
             }
+
             a.github {
                 position: absolute;
                 top: 115px;
                 left: 82px;
             }
+
             a.mail {
                 position: absolute;
                 top: 90px;
                 left: 160px;
             }
+
             img {
                 border-radius: 50%;
                 width: 45px;
                 padding: 10px;
                 margin: 8px;
                 background: linear-gradient(145deg, #ffffff, #dfdfdf);
-                box-shadow:  5px 5px 6px #d0d0d0,
-                            -5px -5px 6px #ffffff;
+                box-shadow: 5px 5px 6px #d0d0d0,
+                    -5px -5px 6px #ffffff;
             }
+
             img:hover {
                 background: #f8f8f8;
                 box-shadow: inset 5px 5px 6px #d0d0d0,
-                            inset -5px -5px 6px #ffffff;
+                    inset -5px -5px 6px #ffffff;
             }
         }
     }
-    .circle-outer{
+
+    .circle-outer {
         border-radius: 50%;
         width: 180px;
         height: 180px;
@@ -73,7 +84,8 @@ main {
         border-radius: 139px;
         background: #eef2f5;
         box-shadow: inset 5px 5px 6px #c3c6c9,
-                    inset -5px -5px 6px #ffffff;
+            inset -5px -5px 6px #ffffff;
+
         .circle-inner {
             width: 150px;
             height: 150px;
@@ -82,8 +94,8 @@ main {
             top: 16px;
             left: 16px;
             background: #eef2f5;
-            box-shadow:  5px 5px 6px #c3c6c9,
-                        -5px -5px 6px #ffffff;
+            box-shadow: 5px 5px 6px #c3c6c9,
+                -5px -5px 6px #ffffff;
 
             img {
                 width: inherit;
@@ -91,100 +103,116 @@ main {
                 border-radius: 50%;
             }
         }
-    }    
+    }
 }
-@media screen and (max-width: 992px){
+
+@media screen and (max-width: 992px) {
     main {
         .about-container {
             .title {
                 padding: 88px 115px 0 358px;
             }
+
             .desc {
                 padding: 60px 40px 40px 40px;
             }
         }
     }
 }
+
 @media screen and (max-width: 767px) {
     .about-container {
         margin-top: 6em !important;
         margin-bottom: 1.5em;
     }
+
     main {
         .about-container {
             .title {
-                padding: 88px 115px 0 293px!important;
+                padding: 88px 115px 0 293px !important;
             }
         }
+
         .circle-outer {
-            top: 190px!important;
+            top: 190px !important;
         }
-    }    
+    }
 }
 
 @media screen and (max-width: 575px) {
     main {
         .about-container {
             .title {
-                padding: 50px 20px 0px 250px!important;
+                padding: 50px 20px 0px 250px !important;
             }
+
             .desc {
                 font-size: inherit;
             }
         }
-    } 
-    
+    }
+
 }
+
 @media screen and (max-width: 518px) {
     main {
         .about-container {
             .title {
-                padding: 30px 20px 0px 218px!important;
+                padding: 30px 20px 0px 218px !important;
             }
+
             .desc {
                 padding: 20px 25px 40px 25px;
             }
         }
+
         .circle-outer {
-            left: 10px!important;
+            left: 10px !important;
             transform: scale(0.8);
-        } 
+        }
     }
 }
+
 body.dark {
     .about-container {
         background: #1f1d2c;
-        box-shadow:  12px 12px 12px #0c0c12,
-                    -12px -12px 12px #322e46;
+        box-shadow: 12px 12px 12px #0c0c12,
+            -12px -12px 12px #322e46;
+
         .title {
             color: #acc3d3;
         }
+
         .desc {
             p {
                 color: #85949e;
             }
         }
+
         .social-links {
             img {
                 background: linear-gradient(145deg, #211f2f, #1c1a28);
-                box-shadow:  5px 5px 5px #0c0c12,
-                                -5px -5px 5px #322e46;
+                box-shadow: 5px 5px 5px #0c0c12,
+                    -5px -5px 5px #322e46;
             }
+
             img:hover {
                 background: inherit;
                 box-shadow: inset 7px 7px 6px #0c0c12,
-                            inset -7px -7px 6px #322e46
+                    inset -7px -7px 6px #322e46
             }
         }
     }
+
     .circle-outer {
         background: #1f1d2c;
         box-shadow: inset 14px 14px 27px #0c0c12,
-                    inset -14px -14px 27px #322e46;
+            inset -14px -14px 27px #322e46;
+
         .circle-inner {
             background: #1f1d2c;
-            box-shadow:  8px 8px 10px #0c0c12,
-                        -8px -8px 10px #322e46;
+            box-shadow: 8px 8px 10px #0c0c12,
+                -8px -8px 10px #322e46;
         }
     }
 }

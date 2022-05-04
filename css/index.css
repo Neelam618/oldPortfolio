@@ -1,7 +1,7 @@
 body {
   font-weight: 500 !important;
   background-color: #fff4f4 !important;
-  font-size: 1.1rem !important;
+  font-size: 18px !important;
   box-sizing: border-box;
   background-image: linear-gradient(to top right, #fff0f2 50%, #f3e8ff 50%); }
 
@@ -19,7 +19,8 @@ body.dark {
       border-radius: 65px;
       background-color: #f8f8f8;
       box-shadow: 5px 5px 8px #e7e7e7, -5px -5px 8px #ffffff; }
-    .container header nav ul.nav li.nav-item a.nav-link:hover, .container header nav ul.nav li.nav-item .nav-link.active {
+    .container header nav ul.nav li.nav-item a.nav-link:hover,
+    .container header nav ul.nav li.nav-item .nav-link.active {
       color: #3271e6;
       background-color: #f8f8f8;
       box-shadow: inset 5px 5px 4px #d8d8d8, inset -5px -5px 4px #ffffff; }
@@ -70,7 +71,8 @@ body.dark {
   box-shadow: 6px 6px 8px #0d0c12, -6px -6px 8px #312e46;
   color: #9998ff; }
 
-.dark .container header nav ul.nav li.nav-item a.nav-link:hover, .dark .container header nav ul.nav li.nav-item .nav-link.active {
+.dark .container header nav ul.nav li.nav-item a.nav-link:hover,
+.dark .container header nav ul.nav li.nav-item .nav-link.active {
   color: #9998ff;
   background-color: #1f1d2c;
   box-shadow: inset 6px 6px 8px #0d0c12, inset -6px -6px 8px #312e46; }
