@@ -3,19 +3,21 @@
 .container {
 
     main {
-        min-height: 68.6vh; 
-        .profile-container{
+        min-height: 68.6vh;
+
+        .profile-container {
             border-radius: 16px;
             margin-top: 8em;
             padding: 15px;
-            background: #f8f8f8;
-            box-shadow:  12px 12px 12px #d3d3d3,
-                        -12px -12px 12px #ffffff;
+            background: #FADB5F;
+
             .title {
                 padding: 30px 20px 0 250px;
+
                 h1 {
                     font-weight: 700;
                 }
+
                 p {
                     font-weight: 400;
                 }
@@ -30,35 +32,38 @@
                     padding: 10px;
                     margin: 8px;
                     background: linear-gradient(145deg, #ffffff, #dfdfdf);
-                    box-shadow:  5px 5px 6px #d0d0d0,
-                                 -5px -5px 6px #ffffff;
+
+                    &:last-of-type {
+                        margin-left: 0;
+                    }
                 }
 
                 img:hover {
                     background: #f8f8f8;
-                    box-shadow: inset 5px 5px 6px #d0d0d0,
-                                inset -5px -5px 6px #ffffff;
+
                 }
             }
+
             .skills-container {
                 padding: 20px 20px 30px 250px;
                 margin: 2em 0;
 
                 .skills {
                     display: inline-block;
-                    color: #ff008d;
-                    padding: 8px 25px;
+                    color: #7e7e7e;
+                    font-size: 14px;
+                    padding: 4px 12px;
                     margin-right: 10px;
                     margin-bottom: 10px;
                     border-radius: 30px;
                     border-radius: 24px;
                     background: #f8f8f8;
-                    box-shadow: inset 5px 5px 4px #d8d8d8,
-                                inset -5px -5px 4px #ffffff;
+
                 }
             }
         }
-        .circle-outer{
+
+        .circle-outer {
             border-radius: 50%;
             width: 180px;
             height: 180px;
@@ -71,8 +76,8 @@
             border-radius: 139px;
             background: #eef2f5;
             box-shadow: inset 5px 5px 6px #c3c6c9,
-                        inset -5px -5px 6px #ffffff;
-            
+                inset -5px -5px 6px #ffffff;
+
             .circle-inner {
                 width: 150px;
                 height: 150px;
@@ -81,8 +86,8 @@
                 top: 16px;
                 left: 16px;
                 background: #eef2f5;
-                box-shadow:  5px 5px 6px #c3c6c9,
-                            -5px -5px 6px #ffffff;
+                box-shadow: 5px 5px 6px #c3c6c9,
+                    -5px -5px 6px #ffffff;
 
                 img {
                     width: inherit;
@@ -91,39 +96,48 @@
                 }
             }
         }
-    }   
+    }
 }
+
 @media screen and (max-width: 992px) {
     .social-links {
-        padding: 15px 20px 0 235px!important;
+        padding: 15px 20px 0 235px !important;
     }
+
     .skills-container {
-        padding: 20px 20px 30px 20px!important;
+        padding: 20px 20px 30px 20px !important;
         margin-bottom: 0;
     }
 }
+
 @media screen and (max-width: 767px) {
     main {
-        min-height: 72.6vh!important; 
+        min-height: 72.6vh !important;
+
         .profile-container {
-            margin-top: 3em!important;
+            margin-top: 3em !important;
         }
+
         .social-links {
-            padding: 15px 10px 0 10px!important;
+            padding: 15px 10px 0 10px !important;
         }
+
         .circle-outer {
-            top: 150px!important;
+            top: 150px !important;
         }
     }
 }
+
 @media screen and (max-width: 576px) {
-    
+
     .circle-outer {
-        left: 3px!important;
+        left: 3px !important;
         transform: scale(0.8);
     }
+
     .title {
-        padding: 30px 8px 0 40%!important;
+        padding: 30px 8px 0 40% !important;
+
         p {
             font-size: 1.1rem;
         }
@@ -133,41 +147,47 @@
 body.dark {
     .profile-container {
         background: #1f1d2c;
-        box-shadow:  12px 12px 12px #0c0c12,
-                    -12px -12px 12px #322e46;
-        .title, p {
+        box-shadow: 12px 12px 12px #0c0c12,
+            -12px -12px 12px #322e46;
+
+        .title,
+        p {
             color: #acc3d3;
         }
+
         .social-links {
             img {
                 background: linear-gradient(145deg, #211f2f, #1c1a28);
-                box-shadow:  5px 5px 5px #0c0c12,
-                             -5px -5px 5px #322e46;
+                box-shadow: 5px 5px 5px #0c0c12,
+                    -5px -5px 5px #322e46;
             }
+
             img:hover {
                 background: inherit;
                 box-shadow: inset 7px 7px 6px #0c0c12,
-                            inset -7px -7px 6px #322e46
+                    inset -7px -7px 6px #322e46
             }
         }
+
         .skills-container {
             .skills {
                 background: #1f1d2c;
                 box-shadow: inset 6px 6px 7px #0c0c12,
-                            inset -6px -6px 7px #322e46;
+                    inset -6px -6px 7px #322e46;
                 color: #fd46c5;
             }
         }
     }
+
     .circle-outer {
         background: #1f1d2c;
         box-shadow: inset 14px 14px 27px #0c0c12,
-                    inset -14px -14px 27px #322e46;
+            inset -14px -14px 27px #322e46;
+
         .circle-inner {
             background: #1f1d2c;
-            box-shadow:  8px 8px 10px #0c0c12,
-                        -8px -8px 10px #322e46;
+            box-shadow: 8px 8px 10px #0c0c12,
+                -8px -8px 10px #322e46;
         }
     }
 }
-

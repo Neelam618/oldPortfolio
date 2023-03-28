@@ -1,12 +1,7 @@
 body {
   font-weight: 500 !important;
-  background-color: #fff4f4 !important;
-  font-size: 18px !important;
-  box-sizing: border-box;
-  background-image: linear-gradient(to top right, #fff0f2 50%, #f3e8ff 50%); }
-
-body.dark {
-  background-image: linear-gradient(to top right, #611b5f 50%, #4d3269 50%); }
+  font-size: 16px !important;
+  box-sizing: border-box; }
 
 .container {
   padding: 0 100px;
@@ -14,16 +9,12 @@ body.dark {
   .container header nav ul.nav li.nav-item {
     margin-bottom: 15px; }
     .container header nav ul.nav li.nav-item a.nav-link {
-      margin-right: 20px;
-      padding: 0.5rem 1.5rem;
-      border-radius: 65px;
-      background-color: #f8f8f8;
-      box-shadow: 5px 5px 8px #e7e7e7, -5px -5px 8px #ffffff; }
-    .container header nav ul.nav li.nav-item a.nav-link:hover,
+      background: #fff;
+      color: #7e7e7e; }
     .container header nav ul.nav li.nav-item .nav-link.active {
-      color: #3271e6;
-      background-color: #f8f8f8;
-      box-shadow: inset 5px 5px 4px #d8d8d8, inset -5px -5px 4px #ffffff; }
+      color: #7e7e7e;
+      border-bottom: 4px solid #FADB5F;
+      background: #fff; }
   .container header .toggleSwitch {
     margin-bottom: 2em; }
     .container header .toggleSwitch .checkbox {
@@ -85,8 +76,7 @@ main {
     margin-top: 4em;
     margin-bottom: 4em;
     padding: 15px;
-    background: #f8f8f8;
-    box-shadow: 12px 12px 12px #d3d3d3, -12px -12px 12px #ffffff; }
+    background: #FADB5F; }
     main .about-container .title {
       padding: 30px 20px 0 280px; }
       main .about-container .title h1 {
@@ -107,21 +97,19 @@ main {
       main .about-container .social-links a.github {
         position: absolute;
         top: 115px;
-        left: 82px; }
+        left: 89px; }
       main .about-container .social-links a.mail {
         position: absolute;
-        top: 90px;
-        left: 160px; }
+        top: 86px;
+        left: 176px; }
       main .about-container .social-links img {
         border-radius: 50%;
         width: 45px;
         padding: 10px;
         margin: 8px;
-        background: linear-gradient(145deg, #ffffff, #dfdfdf);
-        box-shadow: 5px 5px 6px #d0d0d0, -5px -5px 6px #ffffff; }
+        background: linear-gradient(145deg, #ffffff, #dfdfdf); }
       main .about-container .social-links img:hover {
-        background: #f8f8f8;
-        box-shadow: inset 5px 5px 6px #d0d0d0, inset -5px -5px 6px #ffffff; }
+        background: #f8f8f8; }
   main .circle-outer {
     border-radius: 50%;
     width: 180px;
