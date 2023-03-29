@@ -14,7 +14,7 @@ main {
             background: #FADB5F;
             border: none;
             margin: 40px;
-            min-height: 670px;
+            min-height: 650px;
 
             .card-title {
                 padding-bottom: 30px;
@@ -119,17 +119,13 @@ body.dark {
     .prj-container {
         .card {
             background: #1f1d2c;
-            box-shadow: 7px 7px 7px #0c0c12,
-                -7px -7px 7px #322e46;
 
             .card-title {
                 color: #acc3d3;
             }
 
             .image {
-                background: #1f1d2c;
-                box-shadow: 7px 7px 7px #0c0c12,
-                    -7px -7px 7px #322e46;
+                background: #f8f8f8;
             }
 
             .card-body {
