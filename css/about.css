@@ -79,8 +79,6 @@ main {
       font-weight: 400;
       text-align: justify;
       line-height: 1.8; }
-      main .about-container .desc p {
-        color: #44454a; }
     main .about-container .social-links {
       padding: 0 20px 0 250px; }
       main .about-container .social-links a.linkedin {
@@ -163,7 +161,7 @@ main {
 body.dark .about-container {
   background: #1f1d2c; }
   body.dark .about-container .title {
-    color: #acc3d3; }
+    color: #d2d0d0; }
   body.dark .about-container .desc p {
     color: #85949e; }
   body.dark .about-container .social-links img {

@@ -33,7 +33,6 @@ main {
                 ul {
                     font-weight: 400;
                     padding-left: 14px;
-                    list-style: none;
 
                     .toggle-text {
                         display: none;
@@ -50,15 +49,6 @@ main {
                     }
                 }
 
-                ul li::before {
-                    content: "\2022";
-                    color: rgb(196, 196, 196);
-                    font-weight: bold;
-                    display: inline-block;
-                    width: 1em;
-                    margin-left: -1em;
-                    font-size: 2rem;
-                }
             }
 
             .card-links {
@@ -121,7 +111,7 @@ body.dark {
             background: #1f1d2c;
 
             .card-title {
-                color: #acc3d3;
+                color: #d2d0d0;
             }
 
             .image {
