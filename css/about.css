@@ -75,7 +75,7 @@ main {
       main .about-container .title h1 {
         font-weight: 700; }
     main .about-container .desc {
-      padding: 20px 140px 50px 280px;
+      padding: 20px 140px 0 280px;
       font-weight: 400;
       text-align: justify;
       line-height: 1.8; }
